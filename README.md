@@ -8,6 +8,7 @@ adding a new app never means touching an existing one.
 |---|---|---|
 | [MParking](MParking/) | iOS | Finds parking that is free right now at U-M Ann Arbor, based on each lot's posted enforcement hours |
 | [Heft](Heft/) | iOS | Sorts your photo library by file size — the thing Photos.app won't do — then exports to an external drive or converts RAW, before deleting |
+| [SnipText](SnipText/) | macOS | Menu-bar OCR: hotkey → drag a box around any on-screen text → it lands on your clipboard, all on-device via Apple Vision |
 
 ## Working in a single app
 
