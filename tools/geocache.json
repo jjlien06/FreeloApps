@@ -1,0 +1,622 @@
+{
+ "1 nichols drive": {
+  "how": "nominatim",
+  "lat": 42.2825925,
+  "lon": -83.7224257
+ },
+ "1000 cornwell place": {
+  "how": "nominatim",
+  "lat": 42.2844542,
+  "lon": -83.73763
+ },
+ "1000 greene street": {
+  "how": "nominatim",
+  "lat": 42.27158,
+  "lon": -83.747653
+ },
+ "1000 wall street": {
+  "how": "nominatim",
+  "lat": 42.288225,
+  "lon": -83.7373099
+ },
+ "1001 hill street": {
+  "how": "nominatim",
+  "lat": 42.272093,
+  "lon": -83.7368343
+ },
+ "1002 wall street": {
+  "how": "nominatim",
+  "lat": 42.2871131,
+  "lon": -83.7337903
+ },
+ "1018 fuller road": {
+  "how": "nominatim",
+  "lat": 42.2866836,
+  "lon": -83.7316849
+ },
+ "1032 greene buidling": {
+  "how": "not-found",
+  "lat": null,
+  "lon": null
+ },
+ "1041 wall street": {
+  "how": "nominatim",
+  "lat": 42.287525,
+  "lon": -83.7336985
+ },
+ "109 east madison": {
+  "how": "nominatim",
+  "lat": 42.274334,
+  "lon": -83.7478692
+ },
+ "1100 beal avenue": {
+  "how": "nominatim",
+  "lat": 42.2889949,
+  "lon": -83.7130679
+ },
+ "1101 beal": {
+  "how": "nominatim",
+  "lat": 42.2888527,
+  "lon": -83.7136431
+ },
+ "1115 ann street": {
+  "how": "nominatim",
+  "lat": 42.2823462,
+  "lon": -83.7351491
+ },
+ "1120 catherine street": {
+  "how": "nominatim",
+  "lat": 42.2830997,
+  "lon": -83.7348657
+ },
+ "1150 west medical center": {
+  "how": "nominatim",
+  "lat": 42.2845037,
+  "lon": -83.7342888
+ },
+ "1200 dean road": {
+  "how": "nominatim",
+  "lat": 42.2963518,
+  "lon": -83.6959178
+ },
+ "1200 geddes": {
+  "how": "nominatim",
+  "lat": 42.27737,
+  "lon": -83.734245
+ },
+ "1213 kipke drive": {
+  "how": "nominatim",
+  "lat": 42.2664585,
+  "lon": -83.7457423
+ },
+ "1221 beal avenue": {
+  "how": "nominatim",
+  "lat": 42.2914872,
+  "lon": -83.7138939
+ },
+ "1239 kipke": {
+  "how": "nominatim",
+  "lat": 42.2650062,
+  "lon": -83.7438263
+ },
+ "1300 east medical center drive": {
+  "how": "nominatim",
+  "lat": 42.2814904,
+  "lon": -83.7303248
+ },
+ "1300 murfin avenue": {
+  "how": "nominatim",
+  "lat": 42.292985,
+  "lon": -83.718651
+ },
+ "1300 n. university street": {
+  "how": "not-found",
+  "lat": null,
+  "lon": null
+ },
+ "1320 hubbard": {
+  "how": "nominatim",
+  "lat": 42.2963405,
+  "lon": -83.7107131
+ },
+ "1333 wilmot st": {
+  "how": "nominatim",
+  "lat": 42.2767868,
+  "lon": -83.7317278
+ },
+ "1407 fuller road @ e. medical center drive": {
+  "how": "not-found",
+  "lat": null,
+  "lon": null
+ },
+ "1421 e. ann street": {
+  "how": "nominatim",
+  "lat": 42.2823317,
+  "lon": -83.7316335
+ },
+ "1443 washtenaw ave": {
+  "how": "nominatim",
+  "lat": 42.2745422,
+  "lon": -83.7298125
+ },
+ "1447 washington heights": {
+  "how": "nominatim",
+  "lat": 42.2805691,
+  "lon": -83.7290172
+ },
+ "1500 washington heights": {
+  "how": "nominatim",
+  "lat": 42.2804077,
+  "lon": -83.728899
+ },
+ "1501 murfin": {
+  "how": "nominatim",
+  "lat": 42.294953,
+  "lon": -83.719335
+ },
+ "1502 e. medical center": {
+  "how": "nominatim",
+  "lat": 42.2813241,
+  "lon": -83.7267622
+ },
+ "1504 e. medical center drive": {
+  "how": "nominatim",
+  "lat": 42.2813183,
+  "lon": -83.7267614
+ },
+ "1519 fuller road": {
+  "how": "nominatim",
+  "lat": 42.2871588,
+  "lon": -83.7286602
+ },
+ "1535 east hospital drive": {
+  "how": "nominatim",
+  "lat": 42.2824593,
+  "lon": -83.7296395
+ },
+ "1600 east medical center drive": {
+  "how": "nominatim",
+  "lat": 42.2810564,
+  "lon": -83.7268038
+ },
+ "1600 huron parkway": {
+  "how": "nominatim",
+  "lat": 42.297726,
+  "lon": -83.704761
+ },
+ "1600 washington heights": {
+  "how": "nominatim",
+  "lat": 42.2804497,
+  "lon": -83.7279083
+ },
+ "1601 east medical center drive": {
+  "how": "nominatim",
+  "lat": 42.2810686,
+  "lon": -83.7265361
+ },
+ "1665 dean": {
+  "how": "nominatim",
+  "lat": 42.2964461,
+  "lon": -83.6958514
+ },
+ "1665 dean road": {
+  "how": "nominatim",
+  "lat": 42.2964461,
+  "lon": -83.6958514
+ },
+ "1910 fuller road": {
+  "how": "nominatim",
+  "lat": 42.287081,
+  "lon": -83.72349
+ },
+ "1919 green road": {
+  "how": "nominatim",
+  "lat": 42.3000876,
+  "lon": -83.6941349
+ },
+ "200 washtenaw avenue": {
+  "how": "nominatim",
+  "lat": 42.2805639,
+  "lon": -83.7334298
+ },
+ "2005 baits": {
+  "how": "nominatim",
+  "lat": 42.2950122,
+  "lon": -83.7264081
+ },
+ "201 east hoover": {
+  "how": "nominatim",
+  "lat": 42.2697581,
+  "lon": -83.747006
+ },
+ "201 fletcher street": {
+  "how": "nominatim",
+  "lat": 42.2801479,
+  "lon": -83.7360395
+ },
+ "201 observatory drive": {
+  "how": "not-found",
+  "lat": null,
+  "lon": null
+ },
+ "207 zina pitcher place": {
+  "how": "nominatim",
+  "lat": 42.2814049,
+  "lon": -83.7336446
+ },
+ "2100 hayward street": {
+  "how": "nominatim",
+  "lat": 42.2938835,
+  "lon": -83.7157007
+ },
+ "2109 fuller road": {
+  "how": "nominatim",
+  "lat": 42.2883759,
+  "lon": -83.7171646
+ },
+ "216 s thayer street": {
+  "how": "nominatim",
+  "lat": 42.2800701,
+  "lon": -83.7396936
+ },
+ "2250 state street, ann arbor mi 48109": {
+  "how": "nominatim",
+  "lat": 42.2541149,
+  "lon": -83.7397399
+ },
+ "2260 hayward avenue": {
+  "how": "not-found",
+  "lat": null,
+  "lon": null
+ },
+ "2300 glazier way": {
+  "how": "nominatim",
+  "lat": 42.287279,
+  "lon": -83.711862
+ },
+ "2300 hayward avenue": {
+  "how": "not-found",
+  "lat": null,
+  "lon": null
+ },
+ "2375 hubbard": {
+  "how": "nominatim",
+  "lat": 42.295542,
+  "lon": -83.7201693
+ },
+ "2500 hayward street": {
+  "how": "nominatim",
+  "lat": 42.294079,
+  "lon": -83.7093405
+ },
+ "2500 s. state street": {
+  "how": "nominatim",
+  "lat": 42.249837,
+  "lon": -83.739534
+ },
+ "2600 draper": {
+  "how": "nominatim",
+  "lat": 42.2930839,
+  "lon": -83.7091305
+ },
+ "2600 glazier way": {
+  "how": "nominatim",
+  "lat": 42.2876923,
+  "lon": -83.7064857
+ },
+ "2601 glazier way": {
+  "how": "nominatim",
+  "lat": 42.288444,
+  "lon": -83.7076443
+ },
+ "2700 hubbard": {
+  "how": "nominatim",
+  "lat": 42.295196,
+  "lon": -83.704387
+ },
+ "2800 plymouth rd": {
+  "how": "nominatim",
+  "lat": 42.3015696,
+  "lon": -83.7056291
+ },
+ "2800 plymouth road": {
+  "how": "nominatim",
+  "lat": 42.3015696,
+  "lon": -83.7056291
+ },
+ "2901 hubbard road": {
+  "how": "nominatim",
+  "lat": 42.2963405,
+  "lon": -83.7107131
+ },
+ "300 block hill": {
+  "how": "not-found",
+  "lat": null,
+  "lon": null
+ },
+ "3000 baxter road": {
+  "how": "nominatim",
+  "lat": 42.2973269,
+  "lon": -83.7041265
+ },
+ "3003 state street": {
+  "how": "nominatim",
+  "lat": 42.2436449,
+  "lon": -83.7391224
+ },
+ "3231 baxter rd": {
+  "how": "nominatim",
+  "lat": 42.2985469,
+  "lon": -83.6978888
+ },
+ "324 observatory": {
+  "how": "nominatim",
+  "lat": 42.2786407,
+  "lon": -83.7311018
+ },
+ "3241 baxter": {
+  "how": "nominatim",
+  "lat": 42.2984326,
+  "lon": -83.6967679
+ },
+ "326 e. hoover": {
+  "how": "nominatim",
+  "lat": 42.2694447,
+  "lon": -83.7530202
+ },
+ "330 packard": {
+  "how": "nominatim",
+  "lat": 42.2745749,
+  "lon": -83.7453077
+ },
+ "333 e. stadium blvd": {
+  "how": "nominatim",
+  "lat": 42.2650414,
+  "lon": -83.7466711
+ },
+ "333 glen street": {
+  "how": "nominatim",
+  "lat": 42.2863424,
+  "lon": -83.7329143
+ },
+ "348 e. hoover": {
+  "how": "nominatim",
+  "lat": 42.2694447,
+  "lon": -83.7530202
+ },
+ "3600 varsity drive": {
+  "how": "nominatim",
+  "lat": 42.236328,
+  "lon": -83.7283203
+ },
+ "400 thompson street": {
+  "how": "nominatim",
+  "lat": 42.277735,
+  "lon": -83.743331
+ },
+ "402 north ingalls": {
+  "how": "nominatim",
+  "lat": 42.2826257,
+  "lon": -83.7385045
+ },
+ "4442 plymouth rd": {
+  "how": "nominatim",
+  "lat": 42.3087463,
+  "lon": -83.6698267
+ },
+ "500 church street": {
+  "how": "nominatim",
+  "lat": 42.2765005,
+  "lon": -83.7350002
+ },
+ "500 w. william": {
+  "how": "nominatim",
+  "lat": 42.2779943,
+  "lon": -83.7505259
+ },
+ "500 west liberty": {
+  "how": "nominatim",
+  "lat": 42.2790957,
+  "lon": -83.75385
+ },
+ "508 thompson street": {
+  "how": "nominatim",
+  "lat": 42.2755074,
+  "lon": -83.7436454
+ },
+ "511 glen court": {
+  "how": "nominatim",
+  "lat": 42.2850885,
+  "lon": -83.7358005
+ },
+ "525 church street": {
+  "how": "nominatim",
+  "lat": 42.2759913,
+  "lon": -83.7344966
+ },
+ "600 thompson street": {
+  "how": "nominatim",
+  "lat": 42.274069,
+  "lon": -83.743208
+ },
+ "617 e huron st": {
+  "how": "nominatim",
+  "lat": 42.281278,
+  "lon": -83.7407
+ },
+ "721 s 5th ave": {
+  "how": "nominatim",
+  "lat": 42.2727327,
+  "lon": -83.7463603
+ },
+ "800 greene st": {
+  "how": "nominatim",
+  "lat": 42.27158,
+  "lon": -83.747653
+ },
+ "800 north university street": {
+  "how": "not-found",
+  "lat": null,
+  "lon": null
+ },
+ "900 baits": {
+  "how": "nominatim",
+  "lat": 42.2919631,
+  "lon": -83.7233507
+ },
+ "900 beal avenue": {
+  "how": "nominatim",
+  "lat": 42.2889425,
+  "lon": -83.7130093
+ },
+ "900 east huron street": {
+  "how": "nominatim",
+  "lat": 42.2812107,
+  "lon": -83.7402857
+ },
+ "900 south university street": {
+  "how": "not-found",
+  "lat": null,
+  "lon": null
+ },
+ "900 wall street": {
+  "how": "nominatim",
+  "lat": 42.288989,
+  "lon": -83.73822
+ },
+ "902 north university street": {
+  "how": "not-found",
+  "lat": null,
+  "lon": null
+ },
+ "959 wall street": {
+  "how": "nominatim",
+  "lat": 42.289318,
+  "lon": -83.7385591
+ },
+ "beal avenue": {
+  "how": "nominatim",
+  "lat": 42.2980958,
+  "lon": -83.7122628
+ },
+ "between keech & hoover streets": {
+  "how": "not-found",
+  "lat": null,
+  "lon": null
+ },
+ "bonisteel avenue": {
+  "how": "not-found",
+  "lat": null,
+  "lon": null
+ },
+ "canal street (behind building)": {
+  "how": "not-found",
+  "lat": null,
+  "lon": null
+ },
+ "dean road": {
+  "how": "nominatim",
+  "lat": 42.2963518,
+  "lon": -83.6959178
+ },
+ "draper road": {
+  "how": "not-found",
+  "lat": null,
+  "lon": null
+ },
+ "e. hospital drive": {
+  "how": "nominatim",
+  "lat": 42.2824685,
+  "lon": -83.7290368
+ },
+ "e. medical center dr.": {
+  "how": "nominatim",
+  "lat": 42.2833769,
+  "lon": -83.7267861
+ },
+ "east hoover street": {
+  "how": "not-found",
+  "lat": null,
+  "lon": null
+ },
+ "east medical center drive": {
+  "how": "nominatim",
+  "lat": 42.2851971,
+  "lon": -83.7281315
+ },
+ "east of s fifth st": {
+  "how": "not-found",
+  "lat": null,
+  "lon": null
+ },
+ "forest street": {
+  "how": "nominatim",
+  "lat": 42.2854445,
+  "lon": -83.7510049
+ },
+ "fuller road": {
+  "how": "nominatim",
+  "lat": 42.2835548,
+  "lon": -83.7108448
+ },
+ "glen court": {
+  "how": "nominatim",
+  "lat": 42.2847679,
+  "lon": -83.7358299
+ },
+ "green road": {
+  "how": "nominatim",
+  "lat": 42.316879,
+  "lon": -83.7066079
+ },
+ "inst for social research-thompson street": {
+  "how": "not-found",
+  "lat": null,
+  "lon": null
+ },
+ "keech street @ main street": {
+  "how": "nominatim",
+  "lat": 42.2672999,
+  "lon": -83.7503912
+ },
+ "kipke drive": {
+  "how": "nominatim",
+  "lat": 42.2664585,
+  "lon": -83.7457423
+ },
+ "kipke drive @ greene road": {
+  "how": "not-found",
+  "lat": null,
+  "lon": null
+ },
+ "kipke drive \u2013 east": {
+  "how": "not-found",
+  "lat": null,
+  "lon": null
+ },
+ "monroe oakland street lot": {
+  "how": "not-found",
+  "lat": null,
+  "lon": null
+ },
+ "north fuller road": {
+  "how": "not-found",
+  "lat": null,
+  "lon": null
+ },
+ "palmer drive-north side": {
+  "how": "not-found",
+  "lat": null,
+  "lon": null
+ },
+ "plymouth/murfin": {
+  "how": "not-found",
+  "lat": null,
+  "lon": null
+ },
+ "tappan st.": {
+  "how": "nominatim",
+  "lat": 42.2750164,
+  "lon": -83.7378105
+ }
+}

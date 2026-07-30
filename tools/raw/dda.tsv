@@ -1,0 +1,36 @@
+# Source: DDA ArcGIS FeatureServer (authoritative geometry/capacity)
+#   structures: .../DDA/DDAParkingAreaView/FeatureServer/2
+#   surfaceLots: .../DDA/DDAParkingAreaView/FeatureServer/1
+# Rules source: https://www.a2dda.org/parking-rates/  (harvested 2026-07-30)
+#   "Parking structures and gated lots are operational 24/7."
+#   "Parking rates apply Monday-Saturday, while parking is free on Sunday
+#    (Sunday 4am - Monday 4am)." + free on PCI-observed holidays.
+#   "Metered parking on-street and in lots is enforced Monday-Saturday 8:00am-6:00pm."
+#
+# Kind: structure = gated, verified rules (rates Mon-Sat, free Sun 4am-Mon 4am)
+#       lot       = surface lot; DDA does not publish per-lot gated-vs-metered
+#                   status, so these are marked confidence=assumed and are NOT
+#                   reported as free. Conservative (structure-like) window applied.
+# Capacity is as published by DDA; some values are visibly stale (Maynard 150,
+# Fourth and Washington 0) so capacity is advisory only, never used for free/paid.
+Kind	Name	Spaces	Accessible	Lat	Lon	ParkingType
+structure	Ann Ashley	990	18	42.28266	-83.74936	Hourly
+structure	Fourth and William	1000	22	42.27842	-83.74776	Hourly
+structure	Liberty Square	590	12	42.27981	-83.74264	Hourly
+structure	Maynard	150	17	42.27871	-83.74238	Hourly
+structure	Forest	150	18	42.27414	-83.73378	Hourly
+structure	Library Lane	665	16	42.27878	-83.74538	Hourly
+structure	First and Washington	245	7	42.28025	-83.75073	Hourly
+structure	Fourth and Washington	0	7	42.28070	-83.74770	Hourly
+lot	N Main and W Ann		2	42.28211	-83.74887	Hourly
+lot	Farmers Market		4	42.28380	-83.74685	Hourly
+lot	Kerrytown Shops		1	42.28458	-83.74679	Hourly
+lot	Community High		4	42.28405	-83.74535	Hourly
+lot	S Main and E William		2	42.27811	-83.74835	Hourly
+lot	Broadway Bridge		2	42.28749	-83.74252	Hourly
+lot	Depot Street		6	42.28809	-83.74404	Hourly
+lot	South Ashley		7	42.27887	-83.74950	Hourly
+lot	Library Lane Surface		2	42.27873	-83.74529	Hourly
+lot	Gandy Dancer		1	42.28702	-83.74199	Hourly
+lot	City Hall		2	42.28209	-83.74516	Hourly
+lot	First and William		4	42.27868	-83.75065	Permit Only

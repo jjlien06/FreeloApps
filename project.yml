@@ -1,0 +1,35 @@
+name: MParking
+options:
+  bundleIdPrefix: com.jeremylien
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+
+packages:
+  ParkingKit:
+    path: Packages/ParkingKit
+
+targets:
+  MParking:
+    type: application
+    platform: iOS
+    sources:
+      - path: MParking
+    dependencies:
+      - package: ParkingKit
+        product: ParkingKit
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jeremylien.MParking
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_CFBundleDisplayName: MParking
+        INFOPLIST_KEY_UIUserInterfaceStyle: Dark
+        INFOPLIST_KEY_NSLocationWhenInUseUsageDescription: >-
+          MParking uses your location to sort parking lots by how far you are from
+          them. Your location stays on the device.
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        SWIFT_VERSION: "6.0"
+        TARGETED_DEVICE_FAMILY: "1"
