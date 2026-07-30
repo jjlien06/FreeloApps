@@ -1,0 +1,17 @@
+# SwiftPM / Xcode build output
+.build/
+.swiftpm/
+DerivedData/
+*.xcuserdatad/
+xcuserdata/
+
+# The Xcode project is generated from project.yml by `xcodegen generate`, but it
+# is committed so the repo opens without extra tooling. Only user-specific state
+# inside it is ignored (above).
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc

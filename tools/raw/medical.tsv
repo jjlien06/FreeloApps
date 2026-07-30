@@ -1,0 +1,41 @@
+# Source: https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/
+# Harvested: 2026-07-30. "Permit and Visitor Parking" table only.
+Lot	Name	Address	EnforcementHours	Tier
+EC1	EMC Gravel Lot	4442 Plymouth Rd	24 hrs, 7 days	Other
+M5	Catherine Street Parking Structure	1120 Catherine Street	6am – 6pm, Mon – Fri	Blue
+M7	Radiation Oncology	1504 E. Medical Center Drive	24 hrs, 7 days	Restricted
+M10*	UMH Emergency Room	1502 E. Medical Center	24 hrs, 7 days	Restricted
+M13*	Med Inn	E. Hospital Drive	24 hrs, 7 days	Restricted
+M15	North Entrance Structure (M15 or P1)	1300 East Medical Center Drive	24 hrs, 7 days	Blue
+M18	P3 Taubman Center Parking Structure	1600 East Medical Center Drive	24 hrs, 7 days	Visitor
+M18	P2 University of Hospital Parking Structure	1600 East Medical Center Drive	24 hrs, 7 days	Visitor
+M22	P4 Mott Parking Structure	1535 East Hospital Drive	24 hrs, 7 days	Blue
+M28	School of Public Health II-East	1500 Washington Heights	6am – 5pm, Mon – Fri	Blue
+M29*	The Pit	1 Nichols Drive	6am – 5pm, Mon – Fri	Blue
+M30*	East Medical Center Drive – East	1601 East Medical Center Drive	24 hrs, 7 days	Visitor
+M31*	East Medical Center Drive – North	East Medical Center Drive	24 hrs, 7 days	Restricted
+M34	School of Public Health II-South	201 Observatory Drive	24 hrs, 7 days	Blue
+M39*	Kellogg Eye Center/Turner Dock	Canal Street (behind building)	24 hrs, 7 days	Gold
+M40	Kellogg Eye Center	1002 Wall Street	6am – 5pm, Mon – Fri	Restricted
+M46*	Stockwell	324 Observatory	24 hrs, 7 days	Visitor
+M50	Riverview Building	1000 Wall Street	6am – 5pm, Mon – Fri	Blue
+M61	Glen Street Parking Structure	333 Glen Street	6am – 6pm, Mon – Fri	Blue
+M64	400 North Ingalls Building	1000 Cornwell Place	6am – 5pm, Mon – Fri	Blue
+M65*	Cornwell Place	1000 Cornwell Place	6am – 5pm, Mon – Fri	Blue
+M66	North Ingalls Street	402 North Ingalls	6am – 5pm, Mon – Fri	Blue
+M67	1018 Fuller Building	1018 Fuller Road	6am – 5pm, Mon – Fri	Blue
+M69	School of Nursing	1150 West Medical Center	6am – 5pm, Mon – Fri	Visitor
+M71	City AA/University Lot	1407 Fuller Road @ E. Medical Center Drive	24 hrs, 7 days	Yellow
+M75	Fuller-Mitchell	1910 Fuller Road	6am – 4pm, Mon – Fri	Orange
+M78*	Fuller Pool	1519 Fuller Road	5am – 5pm, Mon-Fri	Yellow
+M79	Ronald McDonald House	1600 Washington Heights	24 hrs, 7 days	Restricted
+M84*	Glen Court	Glen Court	6am – 5pm, Mon – Fri	Blue
+M85	Cardiovascular Center Parking Structure (P5)	1421 E. Ann Street	24 hrs, 7 days	Visitor
+M86	Ann Street Parking Structure	1115 Ann Street	6am – 6pm, Mon – Fri	Blue
+M87*	900 Wall Street	900 Wall Street	6am – 5pm, Mon – Fri	Blue
+M88*	MM-AEC Construction Trailer	E. Medical Center Dr.	24 hrs, 7 days	Restricted
+M93	Wall Street East Structure	1041 Wall Street	6 am Mon – 1 am Sat	Blue
+M95*	Arbor Heights	1447 Washington Heights	24 hrs, 7 days	Blue
+M97*	Glen Court North	511 Glen Court	6am – 5pm, Mon – Fri	Blue
+M99	Wall Street West Structure	959 Wall Street	6 am Mon – 1 am Sat	Blue
+M101	Zina Parking Structure	207 Zina Pitcher Place	24 hrs, 7 days	Gold

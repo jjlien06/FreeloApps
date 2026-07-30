@@ -1,0 +1,9129 @@
+{
+ "version": 1,
+ "generated": "2026-07-30",
+ "timeZone": "America/Detroit",
+ "caveat": "Entrance signage is authoritative. Enforcement is suspended or overridden during football games, move-in, and commencement.",
+ "sources": {
+  "central": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+  "medical": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+  "north": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+  "athletic": "https://ltp.umich.edu/parking/locations-and-enforcement/ross-athletic-campus/",
+  "dda": "https://www.a2dda.org/parking-rates/",
+  "availability": "https://ltp.umich.edu/parking/parking-space-availability/",
+  "ddaLiveCounts": "https://www.a2dda.org/map/AADDACount.json"
+ },
+ "availabilityAliases": {
+  "P1 Parking Structure": [
+   "M15"
+  ],
+  "P4 Parking Structure": [
+   "M22"
+  ],
+  "M5/M86 Catherine and Ann Structures": [
+   "M5",
+   "M86"
+  ],
+  "Forest St. Structure": [
+   "S28"
+  ]
+ },
+ "facilities": [
+  {
+   "id": "umich:C2",
+   "lotId": "C2",
+   "name": "Kraus Natural Science Building",
+   "system": "umich",
+   "campus": "central",
+   "address": "800 North University Street",
+   "lat": null,
+   "lon": null,
+   "geocode": "not-found",
+   "tier": "restricted",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:C5",
+   "lotId": "C5",
+   "name": "Libraries Service Areas",
+   "system": "umich",
+   "campus": "central",
+   "address": "900 South University Street",
+   "lat": null,
+   "lon": null,
+   "geocode": "not-found",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:C9",
+   "lotId": "C9",
+   "name": "Chemistry Dock",
+   "system": "umich",
+   "campus": "central",
+   "address": "902 North University Street",
+   "lat": null,
+   "lon": null,
+   "geocode": "not-found",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:E1",
+   "lotId": "E1",
+   "name": "North University Court",
+   "system": "umich",
+   "campus": "central",
+   "address": "1300 N. University Street",
+   "lat": null,
+   "lon": null,
+   "geocode": "not-found",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:E3",
+   "lotId": "E3",
+   "name": "Ruthven Museum",
+   "system": "umich",
+   "campus": "central",
+   "address": "1200 Geddes",
+   "lat": 42.27737,
+   "lon": -83.734245,
+   "geocode": "nominatim",
+   "tier": "restricted",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:E8",
+   "lotId": "E8",
+   "name": "Church Street Parking Structure",
+   "system": "umich",
+   "campus": "central",
+   "address": "525 Church Street",
+   "lat": 42.2759913,
+   "lon": -83.7344966,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, Mon \u2013 Sat"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:E15",
+   "lotId": "E15",
+   "name": "Weiser Hall",
+   "system": "umich",
+   "campus": "central",
+   "address": "500 Church Street",
+   "lat": 42.2765005,
+   "lon": -83.7350002,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:E16",
+   "lotId": "E16",
+   "name": "1443 Washtenaw Avenue Bldg",
+   "system": "umich",
+   "campus": "central",
+   "address": "1443 Washtenaw Ave",
+   "lat": 42.2745422,
+   "lon": -83.7298125,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "18:00"
+     }
+    ],
+    "raw": "6am \u2013 6pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:E17",
+   "lotId": "E17",
+   "name": "Wilmot Triangle",
+   "system": "umich",
+   "campus": "central",
+   "address": "1333 Wilmot St",
+   "lat": 42.2767868,
+   "lon": -83.7317278,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 6,
+      "start": "06:00",
+      "end": "18:00"
+     }
+    ],
+    "raw": "6am \u2013 6pm, Mon \u2013 Sat"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:N4",
+   "lotId": "N4",
+   "name": "Thayer Street Parking Structure",
+   "system": "umich",
+   "campus": "central",
+   "address": "216 S Thayer Street",
+   "lat": 42.2800701,
+   "lon": -83.7396936,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "22:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "22:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "22:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "22:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "22:00"
+     },
+     {
+      "day": 6,
+      "start": "06:00",
+      "end": "22:00"
+     }
+    ],
+    "raw": "6am \u2013 10 pm, Mon \u2013 Sat"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:N8",
+   "lotId": "N8",
+   "name": "Rackham Building",
+   "system": "umich",
+   "campus": "central",
+   "address": "900 East Huron Street",
+   "lat": 42.2812107,
+   "lon": -83.7402857,
+   "geocode": "nominatim",
+   "tier": "gold",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:N13",
+   "lotId": "N13",
+   "name": "Fletcher Street Parking Structure",
+   "system": "umich",
+   "campus": "central",
+   "address": "201 Fletcher Street",
+   "lat": 42.2801479,
+   "lon": -83.7360395,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "22:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "22:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "22:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "22:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "22:00"
+     },
+     {
+      "day": 6,
+      "start": "06:00",
+      "end": "22:00"
+     }
+    ],
+    "raw": "6am \u2013 10 pm, Mon \u2013 Sat"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:N19",
+   "lotId": "N19",
+   "name": "Palmer Drive-North Side",
+   "system": "umich",
+   "campus": "central",
+   "address": "Palmer Drive-North Side",
+   "lat": null,
+   "lon": null,
+   "geocode": "not-found",
+   "tier": "restricted",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:N26",
+   "lotId": "N26",
+   "name": "Palmer Drive Structure",
+   "system": "umich",
+   "campus": "central",
+   "address": "200 Washtenaw Avenue",
+   "lat": 42.2805639,
+   "lon": -83.7334298,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "22:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "22:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "22:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "22:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "22:00"
+     },
+     {
+      "day": 6,
+      "start": "06:00",
+      "end": "22:00"
+     }
+    ],
+    "raw": "Permit areas 6am \u2013 10 pm, Mon \u2013 Sat Visitor area 6am Mon \u2013 10pm Sat, continuously"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "LTP lists separate permit and visitor rules: Permit areas 6am - 10 pm, Mon - Sat Visitor area 6am Mon - 10pm Sat, continuously"
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:N31",
+   "lotId": "N31",
+   "name": "Harris Hall",
+   "system": "umich",
+   "campus": "central",
+   "address": "617 E Huron St",
+   "lat": 42.281278,
+   "lon": -83.7407,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:S5",
+   "lotId": "S5",
+   "name": "Oakland Avenue",
+   "system": "umich",
+   "campus": "central",
+   "address": "Monroe Oakland Street Lot",
+   "lat": null,
+   "lon": null,
+   "geocode": "not-found",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 6,
+      "start": "06:00",
+      "end": "18:00"
+     }
+    ],
+    "raw": "6am \u2013 6pm, Mon \u2013 Sat"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:S8",
+   "lotId": "S8",
+   "name": "Hill Street Parking Structure",
+   "system": "umich",
+   "campus": "central",
+   "address": "1001 Hill Street",
+   "lat": 42.272093,
+   "lon": -83.7368343,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 6,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Sat"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:S28",
+   "lotId": "S28",
+   "name": "City of Ann Arbor Forest Structure",
+   "system": "umich",
+   "campus": "central",
+   "address": "Forest Street",
+   "lat": 42.2854445,
+   "lon": -83.7510049,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": [
+    "Forest St. Structure"
+   ]
+  },
+  {
+   "id": "umich:S30",
+   "lotId": "S30",
+   "name": "Martha Cook Residence Dock",
+   "system": "umich",
+   "campus": "central",
+   "address": "Tappan St.",
+   "lat": 42.2750164,
+   "lon": -83.7378105,
+   "geocode": "nominatim",
+   "tier": "restricted",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:W3",
+   "lotId": "W3",
+   "name": "Thompson Street Parking Structure",
+   "system": "umich",
+   "campus": "central",
+   "address": "508 Thompson Street",
+   "lat": 42.2755074,
+   "lon": -83.7436454,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 6,
+      "start": "06:00",
+      "end": "18:00"
+     }
+    ],
+    "raw": "6am \u2013 6pm, Mon \u2013 Sat"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:W9",
+   "lotId": "W9",
+   "name": "Perry Building East",
+   "system": "umich",
+   "campus": "central",
+   "address": "330 Packard",
+   "lat": 42.2745749,
+   "lon": -83.7453077,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 6,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Sat"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:W10",
+   "lotId": "W10",
+   "name": "Perry Building West",
+   "system": "umich",
+   "campus": "central",
+   "address": "330 Packard",
+   "lat": 42.2745749,
+   "lon": -83.7453077,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 6,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Sat"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:W11",
+   "lotId": "W11",
+   "name": "Krause Street",
+   "system": "umich",
+   "campus": "central",
+   "address": "500 West Liberty",
+   "lat": 42.2790957,
+   "lon": -83.75385,
+   "geocode": "nominatim",
+   "tier": "orange",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:W13",
+   "lotId": "W13",
+   "name": "Student Activities Building",
+   "system": "umich",
+   "campus": "central",
+   "address": "400 Thompson Street",
+   "lat": 42.277735,
+   "lon": -83.743331,
+   "geocode": "nominatim",
+   "tier": "visitor",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 6,
+      "start": "06:00",
+      "end": "18:00"
+     }
+    ],
+    "raw": "6am \u2013 6pm, Mon \u2013 Sat"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:W16",
+   "lotId": "W16",
+   "name": "Thompson Street-The Triangle",
+   "system": "umich",
+   "campus": "central",
+   "address": "600 Thompson Street",
+   "lat": 42.274069,
+   "lon": -83.743208,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "22:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "22:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "22:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "22:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "22:00"
+     },
+     {
+      "day": 6,
+      "start": "06:00",
+      "end": "22:00"
+     }
+    ],
+    "raw": "6am \u2013 10 pm, Mon \u2013 Sat"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:W19",
+   "lotId": "W19",
+   "name": "Inst for Social Research-Thompson Street",
+   "system": "umich",
+   "campus": "central",
+   "address": "Inst for Social Research-Thompson Street",
+   "lat": null,
+   "lon": null,
+   "geocode": "not-found",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:W21",
+   "lotId": "W21",
+   "name": "Madison Building",
+   "system": "umich",
+   "campus": "central",
+   "address": "109 East Madison",
+   "lat": 42.274334,
+   "lon": -83.7478692,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 6,
+      "start": "06:00",
+      "end": "18:00"
+     }
+    ],
+    "raw": "6am \u2013 6pm, Mon \u2013 Sat"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:W24",
+   "lotId": "W24",
+   "name": "Argus Building",
+   "system": "umich",
+   "campus": "central",
+   "address": "500 W. William",
+   "lat": 42.2779943,
+   "lon": -83.7505259,
+   "geocode": "nominatim",
+   "tier": "orange",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 6,
+      "start": "06:00",
+      "end": "18:00"
+     }
+    ],
+    "raw": "6am \u2013 6pm, Mon \u2013 Sat"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:W32",
+   "lotId": "W32",
+   "name": "The Coliseum",
+   "system": "umich",
+   "campus": "central",
+   "address": "300 block Hill",
+   "lat": null,
+   "lon": null,
+   "geocode": "not-found",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:W33",
+   "lotId": "W33",
+   "name": "Buhr Building-West",
+   "system": "umich",
+   "campus": "central",
+   "address": "800 Greene St",
+   "lat": 42.27158,
+   "lon": -83.747653,
+   "geocode": "nominatim",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:W34",
+   "lotId": "W34",
+   "name": "Buhr Building-South",
+   "system": "umich",
+   "campus": "central",
+   "address": "800 Greene St",
+   "lat": 42.27158,
+   "lon": -83.747653,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:W35",
+   "lotId": "W35",
+   "name": "Boyer Building",
+   "system": "umich",
+   "campus": "central",
+   "address": "201 East Hoover",
+   "lat": 42.2697581,
+   "lon": -83.747006,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:W39",
+   "lotId": "W39",
+   "name": "East Side of S 5th Ave",
+   "system": "umich",
+   "campus": "central",
+   "address": "East of S Fifth St",
+   "lat": null,
+   "lon": null,
+   "geocode": "not-found",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:W40",
+   "lotId": "W40",
+   "name": "East Side of 5th Ave",
+   "system": "umich",
+   "campus": "central",
+   "address": "721 S 5th Ave",
+   "lat": 42.2727327,
+   "lon": -83.7463603,
+   "geocode": "nominatim",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:EC1",
+   "lotId": "EC1",
+   "name": "EMC Gravel Lot",
+   "system": "umich",
+   "campus": "medical",
+   "address": "4442 Plymouth Rd",
+   "lat": 42.3087463,
+   "lon": -83.6698267,
+   "geocode": "nominatim",
+   "tier": "other",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M5",
+   "lotId": "M5",
+   "name": "Catherine Street Parking Structure",
+   "system": "umich",
+   "campus": "medical",
+   "address": "1120 Catherine Street",
+   "lat": 42.2830997,
+   "lon": -83.7348657,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "18:00"
+     }
+    ],
+    "raw": "6am \u2013 6pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": [
+    "M5/M86 Catherine and Ann Structures"
+   ]
+  },
+  {
+   "id": "umich:M7",
+   "lotId": "M7",
+   "name": "Radiation Oncology",
+   "system": "umich",
+   "campus": "medical",
+   "address": "1504 E. Medical Center Drive",
+   "lat": 42.2813183,
+   "lon": -83.7267614,
+   "geocode": "nominatim",
+   "tier": "restricted",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M10",
+   "lotId": "M10",
+   "name": "UMH Emergency Room",
+   "system": "umich",
+   "campus": "medical",
+   "address": "1502 E. Medical Center",
+   "lat": 42.2813241,
+   "lon": -83.7267622,
+   "geocode": "nominatim",
+   "tier": "restricted",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M13",
+   "lotId": "M13",
+   "name": "Med Inn",
+   "system": "umich",
+   "campus": "medical",
+   "address": "E. Hospital Drive",
+   "lat": 42.2824685,
+   "lon": -83.7290368,
+   "geocode": "nominatim",
+   "tier": "restricted",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M15",
+   "lotId": "M15",
+   "name": "North Entrance Structure (M15 or P1)",
+   "system": "umich",
+   "campus": "medical",
+   "address": "1300 East Medical Center Drive",
+   "lat": 42.2814904,
+   "lon": -83.7303248,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": [
+    "P1 Parking Structure"
+   ]
+  },
+  {
+   "id": "umich:M18",
+   "lotId": "M18",
+   "name": "P3 Taubman Center Parking Structure",
+   "system": "umich",
+   "campus": "medical",
+   "address": "1600 East Medical Center Drive",
+   "lat": 42.2810564,
+   "lon": -83.7268038,
+   "geocode": "nominatim",
+   "tier": "visitor",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M18-2",
+   "lotId": "M18",
+   "name": "P2 University of Hospital Parking Structure",
+   "system": "umich",
+   "campus": "medical",
+   "address": "1600 East Medical Center Drive",
+   "lat": 42.2810564,
+   "lon": -83.7268038,
+   "geocode": "nominatim",
+   "tier": "visitor",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M22",
+   "lotId": "M22",
+   "name": "P4 Mott Parking Structure",
+   "system": "umich",
+   "campus": "medical",
+   "address": "1535 East Hospital Drive",
+   "lat": 42.2824593,
+   "lon": -83.7296395,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": [
+    "P4 Parking Structure"
+   ]
+  },
+  {
+   "id": "umich:M28",
+   "lotId": "M28",
+   "name": "School of Public Health II-East",
+   "system": "umich",
+   "campus": "medical",
+   "address": "1500 Washington Heights",
+   "lat": 42.2804077,
+   "lon": -83.728899,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M29",
+   "lotId": "M29",
+   "name": "The Pit",
+   "system": "umich",
+   "campus": "medical",
+   "address": "1 Nichols Drive",
+   "lat": 42.2825925,
+   "lon": -83.7224257,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M30",
+   "lotId": "M30",
+   "name": "East Medical Center Drive \u2013 East",
+   "system": "umich",
+   "campus": "medical",
+   "address": "1601 East Medical Center Drive",
+   "lat": 42.2810686,
+   "lon": -83.7265361,
+   "geocode": "nominatim",
+   "tier": "visitor",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M31",
+   "lotId": "M31",
+   "name": "East Medical Center Drive \u2013 North",
+   "system": "umich",
+   "campus": "medical",
+   "address": "East Medical Center Drive",
+   "lat": 42.2851971,
+   "lon": -83.7281315,
+   "geocode": "nominatim",
+   "tier": "restricted",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M34",
+   "lotId": "M34",
+   "name": "School of Public Health II-South",
+   "system": "umich",
+   "campus": "medical",
+   "address": "201 Observatory Drive",
+   "lat": null,
+   "lon": null,
+   "geocode": "not-found",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M39",
+   "lotId": "M39",
+   "name": "Kellogg Eye Center/Turner Dock",
+   "system": "umich",
+   "campus": "medical",
+   "address": "Canal Street (behind building)",
+   "lat": null,
+   "lon": null,
+   "geocode": "not-found",
+   "tier": "gold",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M40",
+   "lotId": "M40",
+   "name": "Kellogg Eye Center",
+   "system": "umich",
+   "campus": "medical",
+   "address": "1002 Wall Street",
+   "lat": 42.2871131,
+   "lon": -83.7337903,
+   "geocode": "nominatim",
+   "tier": "restricted",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M46",
+   "lotId": "M46",
+   "name": "Stockwell",
+   "system": "umich",
+   "campus": "medical",
+   "address": "324 Observatory",
+   "lat": 42.2786407,
+   "lon": -83.7311018,
+   "geocode": "nominatim",
+   "tier": "visitor",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M50",
+   "lotId": "M50",
+   "name": "Riverview Building",
+   "system": "umich",
+   "campus": "medical",
+   "address": "1000 Wall Street",
+   "lat": 42.288225,
+   "lon": -83.7373099,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M61",
+   "lotId": "M61",
+   "name": "Glen Street Parking Structure",
+   "system": "umich",
+   "campus": "medical",
+   "address": "333 Glen Street",
+   "lat": 42.2863424,
+   "lon": -83.7329143,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "18:00"
+     }
+    ],
+    "raw": "6am \u2013 6pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M64",
+   "lotId": "M64",
+   "name": "400 North Ingalls Building",
+   "system": "umich",
+   "campus": "medical",
+   "address": "1000 Cornwell Place",
+   "lat": 42.2844542,
+   "lon": -83.73763,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M65",
+   "lotId": "M65",
+   "name": "Cornwell Place",
+   "system": "umich",
+   "campus": "medical",
+   "address": "1000 Cornwell Place",
+   "lat": 42.2844542,
+   "lon": -83.73763,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M66",
+   "lotId": "M66",
+   "name": "North Ingalls Street",
+   "system": "umich",
+   "campus": "medical",
+   "address": "402 North Ingalls",
+   "lat": 42.2826257,
+   "lon": -83.7385045,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M67",
+   "lotId": "M67",
+   "name": "1018 Fuller Building",
+   "system": "umich",
+   "campus": "medical",
+   "address": "1018 Fuller Road",
+   "lat": 42.2866836,
+   "lon": -83.7316849,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M69",
+   "lotId": "M69",
+   "name": "School of Nursing",
+   "system": "umich",
+   "campus": "medical",
+   "address": "1150 West Medical Center",
+   "lat": 42.2845037,
+   "lon": -83.7342888,
+   "geocode": "nominatim",
+   "tier": "visitor",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M71",
+   "lotId": "M71",
+   "name": "City AA/University Lot",
+   "system": "umich",
+   "campus": "medical",
+   "address": "1407 Fuller Road @ E. Medical Center Drive",
+   "lat": null,
+   "lon": null,
+   "geocode": "not-found",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M75",
+   "lotId": "M75",
+   "name": "Fuller-Mitchell",
+   "system": "umich",
+   "campus": "medical",
+   "address": "1910 Fuller Road",
+   "lat": 42.287081,
+   "lon": -83.72349,
+   "geocode": "nominatim",
+   "tier": "orange",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "16:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "16:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "16:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "16:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "16:00"
+     }
+    ],
+    "raw": "6am \u2013 4pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M78",
+   "lotId": "M78",
+   "name": "Fuller Pool",
+   "system": "umich",
+   "campus": "medical",
+   "address": "1519 Fuller Road",
+   "lat": 42.2871588,
+   "lon": -83.7286602,
+   "geocode": "nominatim",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "05:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "05:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "05:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "05:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "05:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "5am \u2013 5pm, Mon-Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M79",
+   "lotId": "M79",
+   "name": "Ronald McDonald House",
+   "system": "umich",
+   "campus": "medical",
+   "address": "1600 Washington Heights",
+   "lat": 42.2804497,
+   "lon": -83.7279083,
+   "geocode": "nominatim",
+   "tier": "restricted",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M84",
+   "lotId": "M84",
+   "name": "Glen Court",
+   "system": "umich",
+   "campus": "medical",
+   "address": "Glen Court",
+   "lat": 42.2847679,
+   "lon": -83.7358299,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M85",
+   "lotId": "M85",
+   "name": "Cardiovascular Center Parking Structure (P5)",
+   "system": "umich",
+   "campus": "medical",
+   "address": "1421 E. Ann Street",
+   "lat": 42.2823317,
+   "lon": -83.7316335,
+   "geocode": "nominatim",
+   "tier": "visitor",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M86",
+   "lotId": "M86",
+   "name": "Ann Street Parking Structure",
+   "system": "umich",
+   "campus": "medical",
+   "address": "1115 Ann Street",
+   "lat": 42.2823462,
+   "lon": -83.7351491,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "18:00"
+     }
+    ],
+    "raw": "6am \u2013 6pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": [
+    "M5/M86 Catherine and Ann Structures"
+   ]
+  },
+  {
+   "id": "umich:M87",
+   "lotId": "M87",
+   "name": "900 Wall Street",
+   "system": "umich",
+   "campus": "medical",
+   "address": "900 Wall Street",
+   "lat": 42.288989,
+   "lon": -83.73822,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M88",
+   "lotId": "M88",
+   "name": "MM-AEC Construction Trailer",
+   "system": "umich",
+   "campus": "medical",
+   "address": "E. Medical Center Dr.",
+   "lat": 42.2833769,
+   "lon": -83.7267861,
+   "geocode": "nominatim",
+   "tier": "restricted",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M93",
+   "lotId": "M93",
+   "name": "Wall Street East Structure",
+   "system": "umich",
+   "campus": "medical",
+   "address": "1041 Wall Street",
+   "lat": 42.287525,
+   "lon": -83.7336985,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "01:00"
+     }
+    ],
+    "raw": "6 am Mon \u2013 1 am Sat"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M95",
+   "lotId": "M95",
+   "name": "Arbor Heights",
+   "system": "umich",
+   "campus": "medical",
+   "address": "1447 Washington Heights",
+   "lat": 42.2805691,
+   "lon": -83.7290172,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M97",
+   "lotId": "M97",
+   "name": "Glen Court North",
+   "system": "umich",
+   "campus": "medical",
+   "address": "511 Glen Court",
+   "lat": 42.2850885,
+   "lon": -83.7358005,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M99",
+   "lotId": "M99",
+   "name": "Wall Street West Structure",
+   "system": "umich",
+   "campus": "medical",
+   "address": "959 Wall Street",
+   "lat": 42.289318,
+   "lon": -83.7385591,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "01:00"
+     }
+    ],
+    "raw": "6 am Mon \u2013 1 am Sat"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:M101",
+   "lotId": "M101",
+   "name": "Zina Parking Structure",
+   "system": "umich",
+   "campus": "medical",
+   "address": "207 Zina Pitcher Place",
+   "lat": 42.2814049,
+   "lon": -83.7336446,
+   "geocode": "nominatim",
+   "tier": "gold",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC5",
+   "lotId": "NC5",
+   "name": "Engineering Auxillary Building (EAB)",
+   "system": "umich",
+   "campus": "north",
+   "address": "Fuller Road",
+   "lat": 42.2835548,
+   "lon": -83.7108448,
+   "geocode": "nominatim",
+   "tier": "visitor",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC8",
+   "lotId": "NC8",
+   "name": "Computing Center",
+   "system": "umich",
+   "campus": "north",
+   "address": "2300 Glazier Way",
+   "lat": 42.287279,
+   "lon": -83.711862,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC9",
+   "lotId": "NC9",
+   "name": "UM Transportation Institute",
+   "system": "umich",
+   "campus": "north",
+   "address": "3000 Baxter Road",
+   "lat": 42.2973269,
+   "lon": -83.7041265,
+   "geocode": "nominatim",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC10",
+   "lotId": "NC10",
+   "name": "School of Music",
+   "system": "umich",
+   "campus": "north",
+   "address": "900 Baits",
+   "lat": 42.2919631,
+   "lon": -83.7233507,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC16",
+   "lotId": "NC16",
+   "name": "Gerstacker Bldg & BIRB",
+   "system": "umich",
+   "campus": "north",
+   "address": "1101 Beal",
+   "lat": 42.2888527,
+   "lon": -83.7136431,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC20",
+   "lotId": "NC20",
+   "name": "GG Brown Building",
+   "system": "umich",
+   "campus": "north",
+   "address": "2300 Hayward Avenue",
+   "lat": null,
+   "lon": null,
+   "geocode": "not-found",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC21",
+   "lotId": "NC21",
+   "name": "Bob & Betty Beyster Building",
+   "system": "umich",
+   "campus": "north",
+   "address": "2260 Hayward Avenue",
+   "lat": null,
+   "lon": null,
+   "geocode": "not-found",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC22",
+   "lotId": "NC22",
+   "name": "Naval Architecture & Marine Engineering",
+   "system": "umich",
+   "campus": "north",
+   "address": "2600 Draper",
+   "lat": 42.2930839,
+   "lon": -83.7091305,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC26",
+   "lotId": "NC26",
+   "name": "Naval Architecture & Marine Engineering",
+   "system": "umich",
+   "campus": "north",
+   "address": "2500 Hayward Street",
+   "lat": 42.294079,
+   "lon": -83.7093405,
+   "geocode": "nominatim",
+   "tier": "visitor",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC27",
+   "lotId": "NC27",
+   "name": "Walgreen Drama Center",
+   "system": "umich",
+   "campus": "north",
+   "address": "1300 Murfin Avenue",
+   "lat": 42.292985,
+   "lon": -83.718651,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "20:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "20:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "20:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "20:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "20:00"
+     },
+     {
+      "day": 6,
+      "start": "06:00",
+      "end": "20:00"
+     }
+    ],
+    "raw": "6am \u2013 8pm, Mon \u2013 Sat"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC28",
+   "lotId": "NC28",
+   "name": "Climate And Space Research Building",
+   "system": "umich",
+   "campus": "north",
+   "address": "2500 Hayward Street",
+   "lat": 42.294079,
+   "lon": -83.7093405,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC32",
+   "lotId": "NC32",
+   "name": "Baits I",
+   "system": "umich",
+   "campus": "north",
+   "address": "1320 Hubbard",
+   "lat": 42.2963405,
+   "lon": -83.7107131,
+   "geocode": "nominatim",
+   "tier": "orange",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC34",
+   "lotId": "NC34",
+   "name": "Transportation Research Inst (UMTRI)",
+   "system": "umich",
+   "campus": "north",
+   "address": "3000 Baxter Road",
+   "lat": 42.2973269,
+   "lon": -83.7041265,
+   "geocode": "nominatim",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC37",
+   "lotId": "NC37",
+   "name": "Printing Services",
+   "system": "umich",
+   "campus": "north",
+   "address": "1919 Green Road",
+   "lat": 42.3000876,
+   "lon": -83.6941349,
+   "geocode": "nominatim",
+   "tier": "parkAndRide",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "07:00",
+      "end": "19:00"
+     },
+     {
+      "day": 2,
+      "start": "07:00",
+      "end": "19:00"
+     },
+     {
+      "day": 3,
+      "start": "07:00",
+      "end": "19:00"
+     },
+     {
+      "day": 4,
+      "start": "07:00",
+      "end": "19:00"
+     },
+     {
+      "day": 5,
+      "start": "07:00",
+      "end": "19:00"
+     }
+    ],
+    "raw": "7am \u2013 7pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC38",
+   "lotId": "NC38",
+   "name": "Property Disposition",
+   "system": "umich",
+   "campus": "north",
+   "address": "1200 Dean Road",
+   "lat": 42.2963518,
+   "lon": -83.6959178,
+   "geocode": "nominatim",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC39",
+   "lotId": "NC39",
+   "name": "Property Disposition/Housing",
+   "system": "umich",
+   "campus": "north",
+   "address": "3241 Baxter",
+   "lat": 42.2984326,
+   "lon": -83.6967679,
+   "geocode": "nominatim",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC40",
+   "lotId": "NC40",
+   "name": "Stearns Building",
+   "system": "umich",
+   "campus": "north",
+   "address": "2005 Baits",
+   "lat": 42.2950122,
+   "lon": -83.7264081,
+   "geocode": "nominatim",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC42",
+   "lotId": "NC42",
+   "name": "Bentley Library",
+   "system": "umich",
+   "campus": "north",
+   "address": "1100 Beal Avenue",
+   "lat": 42.2889949,
+   "lon": -83.7130679,
+   "geocode": "nominatim",
+   "tier": "restricted",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC43",
+   "lotId": "NC43",
+   "name": "Art & Architecture Building",
+   "system": "umich",
+   "campus": "north",
+   "address": "2109 Fuller Road",
+   "lat": 42.2883759,
+   "lon": -83.7171646,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC44",
+   "lotId": "NC44",
+   "name": "North Campus Recreation Bldg (NCRB)",
+   "system": "umich",
+   "campus": "north",
+   "address": "2375 Hubbard",
+   "lat": 42.295542,
+   "lon": -83.7201693,
+   "geocode": "nominatim",
+   "tier": "visitor",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 6,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 7,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, 7 Days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC45",
+   "lotId": "NC45",
+   "name": "North Campus Recreation Bldg (NCRB)",
+   "system": "umich",
+   "campus": "north",
+   "address": "1501 Murfin",
+   "lat": 42.294953,
+   "lon": -83.719335,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC46",
+   "lotId": "NC46",
+   "name": "Hayward & Hubbard",
+   "system": "umich",
+   "campus": "north",
+   "address": "2700 Hubbard",
+   "lat": 42.295196,
+   "lon": -83.704387,
+   "geocode": "nominatim",
+   "tier": "orange",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC47",
+   "lotId": "NC47",
+   "name": "Ford Library",
+   "system": "umich",
+   "campus": "north",
+   "address": "900 Beal Avenue",
+   "lat": 42.2889425,
+   "lon": -83.7130093,
+   "geocode": "nominatim",
+   "tier": "restricted",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC48",
+   "lotId": "NC48",
+   "name": "Hayward",
+   "system": "umich",
+   "campus": "north",
+   "address": "2100 Hayward Street",
+   "lat": 42.2938835,
+   "lon": -83.7157007,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC51",
+   "lotId": "NC51",
+   "name": "Glazier Way Commuter",
+   "system": "umich",
+   "campus": "north",
+   "address": "2600 Glazier Way",
+   "lat": 42.2876923,
+   "lon": -83.7064857,
+   "geocode": "nominatim",
+   "tier": "orange",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC52",
+   "lotId": "NC52",
+   "name": "UMH Child Care Center",
+   "system": "umich",
+   "campus": "north",
+   "address": "2601 Glazier Way",
+   "lat": 42.288444,
+   "lon": -83.7076443,
+   "geocode": "nominatim",
+   "tier": "restricted",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC53",
+   "lotId": "NC53",
+   "name": "Hayward & Hubbard",
+   "system": "umich",
+   "campus": "north",
+   "address": "2500 Hayward Street",
+   "lat": 42.294079,
+   "lon": -83.7093405,
+   "geocode": "nominatim",
+   "tier": "orange",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC54",
+   "lotId": "NC54",
+   "name": "Fire Station",
+   "system": "umich",
+   "campus": "north",
+   "address": "Beal Avenue",
+   "lat": 42.2980958,
+   "lon": -83.7122628,
+   "geocode": "nominatim",
+   "tier": "orange",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC60",
+   "lotId": "NC60",
+   "name": "Lurie Engineering",
+   "system": "umich",
+   "campus": "north",
+   "address": "1221 Beal Avenue",
+   "lat": 42.2914872,
+   "lon": -83.7138939,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC61",
+   "lotId": "NC61",
+   "name": "North Campus Facilities Services Bldg",
+   "system": "umich",
+   "campus": "north",
+   "address": "3231 Baxter Rd",
+   "lat": 42.2985469,
+   "lon": -83.6978888,
+   "geocode": "nominatim",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC62",
+   "lotId": "NC62",
+   "name": "North Campus Facilities Services Bldg",
+   "system": "umich",
+   "campus": "north",
+   "address": "3231 Baxter Rd",
+   "lat": 42.2985469,
+   "lon": -83.6978888,
+   "geocode": "nominatim",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC63",
+   "lotId": "NC63",
+   "name": "North Campus Administrative Complex",
+   "system": "umich",
+   "campus": "north",
+   "address": "2901 Hubbard Road",
+   "lat": 42.2963405,
+   "lon": -83.7107131,
+   "geocode": "nominatim",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC65",
+   "lotId": "NC65",
+   "name": "North Campus Administrative Complex",
+   "system": "umich",
+   "campus": "north",
+   "address": "2901 Hubbard Road",
+   "lat": 42.2963405,
+   "lon": -83.7107131,
+   "geocode": "nominatim",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC66",
+   "lotId": "NC66",
+   "name": "Dean Road Grounds Service Bldg",
+   "system": "umich",
+   "campus": "north",
+   "address": "1665 Dean",
+   "lat": 42.2964461,
+   "lon": -83.6958514,
+   "geocode": "nominatim",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC67",
+   "lotId": "NC67",
+   "name": "Transit Dean Rd",
+   "system": "umich",
+   "campus": "north",
+   "address": "1665 Dean Road",
+   "lat": 42.2964461,
+   "lon": -83.6958514,
+   "geocode": "nominatim",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC70",
+   "lotId": "NC70",
+   "name": "Parallel Parking Bonisteel",
+   "system": "umich",
+   "campus": "north",
+   "address": "Bonisteel Avenue",
+   "lat": null,
+   "lon": null,
+   "geocode": "not-found",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC78",
+   "lotId": "NC78",
+   "name": "Fuller Road North Side",
+   "system": "umich",
+   "campus": "north",
+   "address": "North Fuller Road",
+   "lat": null,
+   "lon": null,
+   "geocode": "not-found",
+   "tier": "orange",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC81",
+   "lotId": "NC81",
+   "name": "North Campus Data Center",
+   "system": "umich",
+   "campus": "north",
+   "address": "Draper Road",
+   "lat": null,
+   "lon": null,
+   "geocode": "not-found",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC82",
+   "lotId": "NC82",
+   "name": "NCRC Parking \u2013 East Campus",
+   "system": "umich",
+   "campus": "north",
+   "address": "1600 Huron Parkway",
+   "lat": 42.297726,
+   "lon": -83.704761,
+   "geocode": "nominatim",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC83",
+   "lotId": "NC83",
+   "name": "NCRC Parking \u2013 East Campus",
+   "system": "umich",
+   "campus": "north",
+   "address": "1600 Huron Parkway",
+   "lat": 42.297726,
+   "lon": -83.704761,
+   "geocode": "nominatim",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC84",
+   "lotId": "NC84",
+   "name": "NCRC Parking \u2013 East Campus",
+   "system": "umich",
+   "campus": "north",
+   "address": "1600 Huron Parkway",
+   "lat": 42.297726,
+   "lon": -83.704761,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC85",
+   "lotId": "NC85",
+   "name": "NCRC Parking \u2013 East Campus",
+   "system": "umich",
+   "campus": "north",
+   "address": "1600 Huron Parkway",
+   "lat": 42.297726,
+   "lon": -83.704761,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC86",
+   "lotId": "NC86",
+   "name": "NCRC Parking \u2013 East Campus",
+   "system": "umich",
+   "campus": "north",
+   "address": "1600 Huron Parkway",
+   "lat": 42.297726,
+   "lon": -83.704761,
+   "geocode": "nominatim",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC90",
+   "lotId": "NC90",
+   "name": "NCRC Parking \u2013 West Campus",
+   "system": "umich",
+   "campus": "north",
+   "address": "2800 Plymouth Road",
+   "lat": 42.3015696,
+   "lon": -83.7056291,
+   "geocode": "nominatim",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC91",
+   "lotId": "NC91",
+   "name": "NCRC Parking \u2013 West Campus",
+   "system": "umich",
+   "campus": "north",
+   "address": "2800 Plymouth Road",
+   "lat": 42.3015696,
+   "lon": -83.7056291,
+   "geocode": "nominatim",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC92",
+   "lotId": "NC92",
+   "name": "NCRC Parking \u2013 West Campus",
+   "system": "umich",
+   "campus": "north",
+   "address": "2800 Plymouth Road",
+   "lat": 42.3015696,
+   "lon": -83.7056291,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC93",
+   "lotId": "NC93",
+   "name": "NCRC Parking \u2013 West Campus",
+   "system": "umich",
+   "campus": "north",
+   "address": "2800 Plymouth Road",
+   "lat": 42.3015696,
+   "lon": -83.7056291,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC95",
+   "lotId": "NC95",
+   "name": "NCRC Parking \u2013 West Campus",
+   "system": "umich",
+   "campus": "north",
+   "address": "2800 Plymouth Road",
+   "lat": 42.3015696,
+   "lon": -83.7056291,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 7,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 6,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm Sun-Sat"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC96",
+   "lotId": "NC96",
+   "name": "NCRC Parking \u2013 West Campus",
+   "system": "umich",
+   "campus": "north",
+   "address": "2800 Plymouth Road",
+   "lat": 42.3015696,
+   "lon": -83.7056291,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC97",
+   "lotId": "NC97",
+   "name": "NCRC Day Care Center Parking",
+   "system": "umich",
+   "campus": "north",
+   "address": "2800 Plymouth Road",
+   "lat": 42.3015696,
+   "lon": -83.7056291,
+   "geocode": "nominatim",
+   "tier": "restricted",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:30",
+      "end": "18:30"
+     },
+     {
+      "day": 2,
+      "start": "06:30",
+      "end": "18:30"
+     },
+     {
+      "day": 3,
+      "start": "06:30",
+      "end": "18:30"
+     },
+     {
+      "day": 4,
+      "start": "06:30",
+      "end": "18:30"
+     },
+     {
+      "day": 5,
+      "start": "06:30",
+      "end": "18:30"
+     }
+    ],
+    "raw": "6:30am \u2013 6:30pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC98",
+   "lotId": "NC98",
+   "name": "NCRC Circle Drive \u2013 West Campus",
+   "system": "umich",
+   "campus": "north",
+   "address": "2800 Plymouth Road",
+   "lat": 42.3015696,
+   "lon": -83.7056291,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC99",
+   "lotId": "NC99",
+   "name": "NCRC Parking \u2013 West Campus",
+   "system": "umich",
+   "campus": "north",
+   "address": "2800 Plymouth Road",
+   "lat": 42.3015696,
+   "lon": -83.7056291,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC100",
+   "lotId": "NC100",
+   "name": "NCRC Parking Structure",
+   "system": "umich",
+   "campus": "north",
+   "address": "2800 Plymouth Road",
+   "lat": 42.3015696,
+   "lon": -83.7056291,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC103",
+   "lotId": "NC103",
+   "name": "Housing Services Building",
+   "system": "umich",
+   "campus": "north",
+   "address": "",
+   "lat": null,
+   "lon": null,
+   "geocode": "no-address",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC105",
+   "lotId": "NC105",
+   "name": "NCRC Parking-West Campus",
+   "system": "umich",
+   "campus": "north",
+   "address": "2800 Plymouth Rd",
+   "lat": 42.3015696,
+   "lon": -83.7056291,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC107",
+   "lotId": "NC107",
+   "name": "Transit Dean Road-Bus Spaces",
+   "system": "umich",
+   "campus": "north",
+   "address": "Dean Road",
+   "lat": 42.2963518,
+   "lon": -83.6959178,
+   "geocode": "nominatim",
+   "tier": "other",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC108",
+   "lotId": "NC108",
+   "name": "Green Court",
+   "system": "umich",
+   "campus": "north",
+   "address": "",
+   "lat": null,
+   "lon": null,
+   "geocode": "no-address",
+   "tier": "visitor",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC109",
+   "lotId": "NC109",
+   "name": "Green Court",
+   "system": "umich",
+   "campus": "north",
+   "address": "",
+   "lat": null,
+   "lon": null,
+   "geocode": "no-address",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NC110",
+   "lotId": "NC110",
+   "name": "Green Road Parking",
+   "system": "umich",
+   "campus": "north",
+   "address": "Green Road",
+   "lat": 42.316879,
+   "lon": -83.7066079,
+   "geocode": "nominatim",
+   "tier": "contractor",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:NW1",
+   "lotId": "NW1",
+   "name": "Plymouth/Murfin",
+   "system": "umich",
+   "campus": "north",
+   "address": "Plymouth/Murfin",
+   "lat": null,
+   "lon": null,
+   "geocode": "not-found",
+   "tier": "orange",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:SC1",
+   "lotId": "SC1",
+   "name": "Athletic Department Permit Parking",
+   "system": "umich",
+   "campus": "athletic",
+   "address": "333 E. Stadium Blvd",
+   "lat": 42.2650414,
+   "lon": -83.7466711,
+   "geocode": "nominatim",
+   "tier": "restricted",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/ross-athletic-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:SC2",
+   "lotId": "SC2",
+   "name": "Between Hoover & Greene",
+   "system": "umich",
+   "campus": "athletic",
+   "address": "1032 Greene Buidling",
+   "lat": null,
+   "lon": null,
+   "geocode": "not-found",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/ross-athletic-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:SC4",
+   "lotId": "SC4",
+   "name": "Kipke Drive & Greene",
+   "system": "umich",
+   "campus": "athletic",
+   "address": "Kipke Drive @ Greene Road",
+   "lat": null,
+   "lon": null,
+   "geocode": "not-found",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/ross-athletic-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:SC5",
+   "lotId": "SC5",
+   "name": "Crisler Arena Area",
+   "system": "umich",
+   "campus": "athletic",
+   "address": "Kipke Drive",
+   "lat": 42.2664585,
+   "lon": -83.7457423,
+   "geocode": "nominatim",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/ross-athletic-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:SC6",
+   "lotId": "SC6",
+   "name": "Kipke Drive West",
+   "system": "umich",
+   "campus": "athletic",
+   "address": "Kipke Drive",
+   "lat": 42.2664585,
+   "lon": -83.7457423,
+   "geocode": "nominatim",
+   "tier": "orange",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/ross-athletic-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:SC7",
+   "lotId": "SC7",
+   "name": "Crisler Arena Area",
+   "system": "umich",
+   "campus": "athletic",
+   "address": "Kipke Drive \u2013 East",
+   "lat": null,
+   "lon": null,
+   "geocode": "not-found",
+   "tier": "orange",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/ross-athletic-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:SC10",
+   "lotId": "SC10",
+   "name": "Transportation & Fleet Services",
+   "system": "umich",
+   "campus": "athletic",
+   "address": "1213 Kipke Drive",
+   "lat": 42.2664585,
+   "lon": -83.7457423,
+   "geocode": "nominatim",
+   "tier": "restricted",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/ross-athletic-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:SC11",
+   "lotId": "SC11",
+   "name": "Physical Properties Building",
+   "system": "umich",
+   "campus": "athletic",
+   "address": "326 E. Hoover",
+   "lat": 42.2694447,
+   "lon": -83.7530202,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "18:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "18:00"
+     }
+    ],
+    "raw": "6am \u2013 6pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/ross-athletic-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:SC16",
+   "lotId": "SC16",
+   "name": "Campus Safety Services",
+   "system": "umich",
+   "campus": "athletic",
+   "address": "1239 Kipke",
+   "lat": 42.2650062,
+   "lon": -83.7438263,
+   "geocode": "nominatim",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/ross-athletic-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:SC17",
+   "lotId": "SC17",
+   "name": "Wolverine Tower",
+   "system": "umich",
+   "campus": "athletic",
+   "address": "3003 State Street",
+   "lat": 42.2436449,
+   "lon": -83.7391224,
+   "geocode": "nominatim",
+   "tier": "contractor",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/ross-athletic-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:SC22",
+   "lotId": "SC22",
+   "name": "Park & Ride Lot",
+   "system": "umich",
+   "campus": "athletic",
+   "address": "2250 State Street, Ann Arbor MI 48109",
+   "lat": 42.2541149,
+   "lon": -83.7397399,
+   "geocode": "nominatim",
+   "tier": "parkAndRide",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "24 hrs, 7 days"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/ross-athletic-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:SC32",
+   "lotId": "SC32",
+   "name": "Hoover & Greene Streets",
+   "system": "umich",
+   "campus": "athletic",
+   "address": "1000 Greene Street",
+   "lat": 42.27158,
+   "lon": -83.747653,
+   "geocode": "nominatim",
+   "tier": "visitor",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/ross-athletic-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:SC34",
+   "lotId": "SC34",
+   "name": "State Street Commuter",
+   "system": "umich",
+   "campus": "athletic",
+   "address": "2500 S. State Street",
+   "lat": 42.249837,
+   "lon": -83.739534,
+   "geocode": "nominatim",
+   "tier": "parkAndRide",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "07:00",
+      "end": "19:00"
+     },
+     {
+      "day": 2,
+      "start": "07:00",
+      "end": "19:00"
+     },
+     {
+      "day": 3,
+      "start": "07:00",
+      "end": "19:00"
+     },
+     {
+      "day": 4,
+      "start": "07:00",
+      "end": "19:00"
+     },
+     {
+      "day": 5,
+      "start": "07:00",
+      "end": "19:00"
+     }
+    ],
+    "raw": "7am \u2013 7pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/ross-athletic-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:SC35",
+   "lotId": "SC35",
+   "name": "Buffalo Lot",
+   "system": "umich",
+   "campus": "athletic",
+   "address": "Between Keech & Hoover Streets",
+   "lat": null,
+   "lon": null,
+   "geocode": "not-found",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/ross-athletic-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:SC36",
+   "lotId": "SC36",
+   "name": "Keech & Main Street",
+   "system": "umich",
+   "campus": "athletic",
+   "address": "Keech Street @ Main Street",
+   "lat": 42.2672999,
+   "lon": -83.7503912,
+   "geocode": "nominatim",
+   "tier": "orange",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/ross-athletic-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:SC37",
+   "lotId": "SC37",
+   "name": "Revelli Hall",
+   "system": "umich",
+   "campus": "athletic",
+   "address": "348 E. Hoover",
+   "lat": 42.2694447,
+   "lon": -83.7530202,
+   "geocode": "nominatim",
+   "tier": "blue",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/ross-athletic-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:SC41",
+   "lotId": "SC41",
+   "name": "Hoover off Main",
+   "system": "umich",
+   "campus": "athletic",
+   "address": "East Hoover Street",
+   "lat": null,
+   "lon": null,
+   "geocode": "not-found",
+   "tier": "orange",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/ross-athletic-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Accessible spaces relocated to another area (LTP asterisk)."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "umich:SC43",
+   "lotId": "SC43",
+   "name": "Varsity Drive",
+   "system": "umich",
+   "campus": "athletic",
+   "address": "3600 Varsity Drive",
+   "lat": 42.236328,
+   "lon": -83.7283203,
+   "geocode": "nominatim",
+   "tier": "yellow",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 2,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 3,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 4,
+      "start": "06:00",
+      "end": "17:00"
+     },
+     {
+      "day": 5,
+      "start": "06:00",
+      "end": "17:00"
+     }
+    ],
+    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+   },
+   "confidence": "verified",
+   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/ross-athletic-campus/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [],
+   "availabilityAliases": []
+  },
+  {
+   "id": "dda:ann-ashley",
+   "lotId": null,
+   "name": "Ann Ashley",
+   "system": "dda",
+   "campus": "downtown",
+   "address": null,
+   "lat": 42.28266,
+   "lon": -83.74936,
+   "geocode": "arcgis",
+   "tier": "public",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "04:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "04:00"
+     }
+    ],
+    "raw": "Rates Mon-Sat; free Sunday 4am-Monday 4am"
+   },
+   "confidence": "verified",
+   "source": "https://www.a2dda.org/parking-rates/",
+   "verifiedOn": "2026-07-30",
+   "capacity": 990,
+   "notes": [
+    "Free Sunday 4am - Monday 4am, and on PCI-observed holidays.",
+    "Gates are lowered on Sundays as of June 2024 - pull a ticket on entry, insert it to exit. Still free."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "dda:fourth-and-william",
+   "lotId": null,
+   "name": "Fourth and William",
+   "system": "dda",
+   "campus": "downtown",
+   "address": null,
+   "lat": 42.27842,
+   "lon": -83.74776,
+   "geocode": "arcgis",
+   "tier": "public",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "04:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "04:00"
+     }
+    ],
+    "raw": "Rates Mon-Sat; free Sunday 4am-Monday 4am"
+   },
+   "confidence": "verified",
+   "source": "https://www.a2dda.org/parking-rates/",
+   "verifiedOn": "2026-07-30",
+   "capacity": 1000,
+   "notes": [
+    "Free Sunday 4am - Monday 4am, and on PCI-observed holidays.",
+    "Gates are lowered on Sundays as of June 2024 - pull a ticket on entry, insert it to exit. Still free."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "dda:liberty-square",
+   "lotId": null,
+   "name": "Liberty Square",
+   "system": "dda",
+   "campus": "downtown",
+   "address": null,
+   "lat": 42.27981,
+   "lon": -83.74264,
+   "geocode": "arcgis",
+   "tier": "public",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "04:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "04:00"
+     }
+    ],
+    "raw": "Rates Mon-Sat; free Sunday 4am-Monday 4am"
+   },
+   "confidence": "verified",
+   "source": "https://www.a2dda.org/parking-rates/",
+   "verifiedOn": "2026-07-30",
+   "capacity": 590,
+   "notes": [
+    "Free Sunday 4am - Monday 4am, and on PCI-observed holidays.",
+    "Gates are lowered on Sundays as of June 2024 - pull a ticket on entry, insert it to exit. Still free."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "dda:maynard",
+   "lotId": null,
+   "name": "Maynard",
+   "system": "dda",
+   "campus": "downtown",
+   "address": null,
+   "lat": 42.27871,
+   "lon": -83.74238,
+   "geocode": "arcgis",
+   "tier": "public",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "04:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "04:00"
+     }
+    ],
+    "raw": "Rates Mon-Sat; free Sunday 4am-Monday 4am"
+   },
+   "confidence": "verified",
+   "source": "https://www.a2dda.org/parking-rates/",
+   "verifiedOn": "2026-07-30",
+   "capacity": 150,
+   "notes": [
+    "Free Sunday 4am - Monday 4am, and on PCI-observed holidays.",
+    "Gates are lowered on Sundays as of June 2024 - pull a ticket on entry, insert it to exit. Still free."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "dda:forest",
+   "lotId": null,
+   "name": "Forest",
+   "system": "dda",
+   "campus": "downtown",
+   "address": null,
+   "lat": 42.27414,
+   "lon": -83.73378,
+   "geocode": "arcgis",
+   "tier": "public",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "04:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "04:00"
+     }
+    ],
+    "raw": "Rates Mon-Sat; free Sunday 4am-Monday 4am"
+   },
+   "confidence": "verified",
+   "source": "https://www.a2dda.org/parking-rates/",
+   "verifiedOn": "2026-07-30",
+   "capacity": 150,
+   "notes": [
+    "Free Sunday 4am - Monday 4am, and on PCI-observed holidays.",
+    "Gates are lowered on Sundays as of June 2024 - pull a ticket on entry, insert it to exit. Still free."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "dda:library-lane",
+   "lotId": null,
+   "name": "Library Lane",
+   "system": "dda",
+   "campus": "downtown",
+   "address": null,
+   "lat": 42.27878,
+   "lon": -83.74538,
+   "geocode": "arcgis",
+   "tier": "public",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "04:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "04:00"
+     }
+    ],
+    "raw": "Rates Mon-Sat; free Sunday 4am-Monday 4am"
+   },
+   "confidence": "verified",
+   "source": "https://www.a2dda.org/parking-rates/",
+   "verifiedOn": "2026-07-30",
+   "capacity": 665,
+   "notes": [
+    "Free Sunday 4am - Monday 4am, and on PCI-observed holidays.",
+    "Gates are lowered on Sundays as of June 2024 - pull a ticket on entry, insert it to exit. Still free."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "dda:first-and-washington",
+   "lotId": null,
+   "name": "First and Washington",
+   "system": "dda",
+   "campus": "downtown",
+   "address": null,
+   "lat": 42.28025,
+   "lon": -83.75073,
+   "geocode": "arcgis",
+   "tier": "public",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "04:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "04:00"
+     }
+    ],
+    "raw": "Rates Mon-Sat; free Sunday 4am-Monday 4am"
+   },
+   "confidence": "verified",
+   "source": "https://www.a2dda.org/parking-rates/",
+   "verifiedOn": "2026-07-30",
+   "capacity": 245,
+   "notes": [
+    "Free Sunday 4am - Monday 4am, and on PCI-observed holidays.",
+    "Gates are lowered on Sundays as of June 2024 - pull a ticket on entry, insert it to exit. Still free."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "dda:fourth-and-washington",
+   "lotId": null,
+   "name": "Fourth and Washington",
+   "system": "dda",
+   "campus": "downtown",
+   "address": null,
+   "lat": 42.2807,
+   "lon": -83.7477,
+   "geocode": "arcgis",
+   "tier": "public",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "04:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "04:00"
+     }
+    ],
+    "raw": "Rates Mon-Sat; free Sunday 4am-Monday 4am"
+   },
+   "confidence": "verified",
+   "source": "https://www.a2dda.org/parking-rates/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Free Sunday 4am - Monday 4am, and on PCI-observed holidays.",
+    "Gates are lowered on Sundays as of June 2024 - pull a ticket on entry, insert it to exit. Still free."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "dda:n-main-and-w-ann",
+   "lotId": null,
+   "name": "N Main and W Ann",
+   "system": "dda",
+   "campus": "downtown",
+   "address": null,
+   "lat": 42.28211,
+   "lon": -83.74887,
+   "geocode": "arcgis",
+   "tier": "public",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 2,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 3,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 4,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 5,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 6,
+      "start": "08:00",
+      "end": "18:00"
+     }
+    ],
+    "raw": "Meters enforced 8am-6pm, Mon-Sat"
+   },
+   "confidence": "verified",
+   "source": "https://www.a2dda.org/parking-rates/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Metered lot: free evenings after 6pm, all Sunday, and on City-observed holidays.",
+    "Time limits are posted per space - free does not mean unlimited, and the posted maximum still applies."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "dda:farmers-market",
+   "lotId": null,
+   "name": "Farmers Market",
+   "system": "dda",
+   "campus": "downtown",
+   "address": null,
+   "lat": 42.2838,
+   "lon": -83.74685,
+   "geocode": "arcgis",
+   "tier": "public",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 2,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 3,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 4,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 5,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 6,
+      "start": "08:00",
+      "end": "18:00"
+     }
+    ],
+    "raw": "Meters enforced 8am-6pm, Mon-Sat"
+   },
+   "confidence": "verified",
+   "source": "https://www.a2dda.org/parking-rates/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Metered lot: free evenings after 6pm, all Sunday, and on City-observed holidays.",
+    "Time limits are posted per space - free does not mean unlimited, and the posted maximum still applies."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "dda:kerrytown-shops",
+   "lotId": null,
+   "name": "Kerrytown Shops",
+   "system": "dda",
+   "campus": "downtown",
+   "address": null,
+   "lat": 42.28458,
+   "lon": -83.74679,
+   "geocode": "arcgis",
+   "tier": "public",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 2,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 3,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 4,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 5,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 6,
+      "start": "08:00",
+      "end": "18:00"
+     }
+    ],
+    "raw": "Meters enforced 8am-6pm, Mon-Sat"
+   },
+   "confidence": "verified",
+   "source": "https://www.a2dda.org/parking-rates/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Metered lot: free evenings after 6pm, all Sunday, and on City-observed holidays.",
+    "Time limits are posted per space - free does not mean unlimited, and the posted maximum still applies."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "dda:community-high",
+   "lotId": null,
+   "name": "Community High",
+   "system": "dda",
+   "campus": "downtown",
+   "address": null,
+   "lat": 42.28405,
+   "lon": -83.74535,
+   "geocode": "arcgis",
+   "tier": "public",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 2,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 3,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 4,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 5,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 6,
+      "start": "08:00",
+      "end": "18:00"
+     }
+    ],
+    "raw": "Meters enforced 8am-6pm, Mon-Sat"
+   },
+   "confidence": "verified",
+   "source": "https://www.a2dda.org/parking-rates/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Metered lot: free evenings after 6pm, all Sunday, and on City-observed holidays.",
+    "Time limits are posted per space - free does not mean unlimited, and the posted maximum still applies."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "dda:s-main-and-e-william",
+   "lotId": null,
+   "name": "S Main and E William",
+   "system": "dda",
+   "campus": "downtown",
+   "address": null,
+   "lat": 42.27811,
+   "lon": -83.74835,
+   "geocode": "arcgis",
+   "tier": "public",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 2,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 3,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 4,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 5,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 6,
+      "start": "08:00",
+      "end": "18:00"
+     }
+    ],
+    "raw": "Meters enforced 8am-6pm, Mon-Sat"
+   },
+   "confidence": "verified",
+   "source": "https://www.a2dda.org/parking-rates/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Metered lot: free evenings after 6pm, all Sunday, and on City-observed holidays.",
+    "Time limits are posted per space - free does not mean unlimited, and the posted maximum still applies."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "dda:broadway-bridge",
+   "lotId": null,
+   "name": "Broadway Bridge",
+   "system": "dda",
+   "campus": "downtown",
+   "address": null,
+   "lat": 42.28749,
+   "lon": -83.74252,
+   "geocode": "arcgis",
+   "tier": "public",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 2,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 3,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 4,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 5,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 6,
+      "start": "08:00",
+      "end": "18:00"
+     }
+    ],
+    "raw": "Meters enforced 8am-6pm, Mon-Sat"
+   },
+   "confidence": "verified",
+   "source": "https://www.a2dda.org/parking-rates/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Metered lot: free evenings after 6pm, all Sunday, and on City-observed holidays.",
+    "Time limits are posted per space - free does not mean unlimited, and the posted maximum still applies."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "dda:depot-street",
+   "lotId": null,
+   "name": "Depot Street",
+   "system": "dda",
+   "campus": "downtown",
+   "address": null,
+   "lat": 42.28809,
+   "lon": -83.74404,
+   "geocode": "arcgis",
+   "tier": "public",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 2,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 3,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 4,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 5,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 6,
+      "start": "08:00",
+      "end": "18:00"
+     }
+    ],
+    "raw": "Meters enforced 8am-6pm, Mon-Sat"
+   },
+   "confidence": "verified",
+   "source": "https://www.a2dda.org/parking-rates/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Metered lot: free evenings after 6pm, all Sunday, and on City-observed holidays.",
+    "Time limits are posted per space - free does not mean unlimited, and the posted maximum still applies."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "dda:south-ashley",
+   "lotId": null,
+   "name": "South Ashley",
+   "system": "dda",
+   "campus": "downtown",
+   "address": null,
+   "lat": 42.27887,
+   "lon": -83.7495,
+   "geocode": "arcgis",
+   "tier": "public",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "04:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "04:00"
+     }
+    ],
+    "raw": "Rates Mon-Sat; free Sunday 4am-Monday 4am"
+   },
+   "confidence": "verified",
+   "source": "https://www.a2dda.org/parking-rates/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Free Sunday 4am - Monday 4am, and on PCI-observed holidays.",
+    "Gates are lowered on Sundays as of June 2024 - pull a ticket on entry, insert it to exit. Still free.",
+    "DDA groups this surface lot with the structures for hourly payment, so the structure hours apply."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "dda:library-lane-surface",
+   "lotId": null,
+   "name": "Library Lane Surface",
+   "system": "dda",
+   "campus": "downtown",
+   "address": null,
+   "lat": 42.27873,
+   "lon": -83.74529,
+   "geocode": "arcgis",
+   "tier": "public",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 2,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 3,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 4,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 5,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 6,
+      "start": "08:00",
+      "end": "18:00"
+     }
+    ],
+    "raw": "Meters enforced 8am-6pm, Mon-Sat"
+   },
+   "confidence": "verified",
+   "source": "https://www.a2dda.org/parking-rates/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Metered lot: free evenings after 6pm, all Sunday, and on City-observed holidays.",
+    "Time limits are posted per space - free does not mean unlimited, and the posted maximum still applies."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "dda:gandy-dancer",
+   "lotId": null,
+   "name": "Gandy Dancer",
+   "system": "dda",
+   "campus": "downtown",
+   "address": null,
+   "lat": 42.28702,
+   "lon": -83.74199,
+   "geocode": "arcgis",
+   "tier": "public",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 2,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 3,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 4,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 5,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 6,
+      "start": "08:00",
+      "end": "18:00"
+     }
+    ],
+    "raw": "Meters enforced 8am-6pm, Mon-Sat"
+   },
+   "confidence": "verified",
+   "source": "https://www.a2dda.org/parking-rates/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Metered lot: free evenings after 6pm, all Sunday, and on City-observed holidays.",
+    "Time limits are posted per space - free does not mean unlimited, and the posted maximum still applies."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "dda:city-hall",
+   "lotId": null,
+   "name": "City Hall",
+   "system": "dda",
+   "campus": "downtown",
+   "address": null,
+   "lat": 42.28209,
+   "lon": -83.74516,
+   "geocode": "arcgis",
+   "tier": "public",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 2,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 3,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 4,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 5,
+      "start": "08:00",
+      "end": "18:00"
+     },
+     {
+      "day": 6,
+      "start": "08:00",
+      "end": "18:00"
+     }
+    ],
+    "raw": "Meters enforced 8am-6pm, Mon-Sat"
+   },
+   "confidence": "verified",
+   "source": "https://www.a2dda.org/parking-rates/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Metered lot: free evenings after 6pm, all Sunday, and on City-observed holidays.",
+    "Time limits are posted per space - free does not mean unlimited, and the posted maximum still applies."
+   ],
+   "availabilityAliases": []
+  },
+  {
+   "id": "dda:first-and-william",
+   "lotId": null,
+   "name": "First and William",
+   "system": "dda",
+   "campus": "downtown",
+   "address": null,
+   "lat": 42.27868,
+   "lon": -83.75065,
+   "geocode": "arcgis",
+   "tier": "public",
+   "enforcement": {
+    "kind": "windows",
+    "windows": [
+     {
+      "day": 1,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 2,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 3,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 4,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 5,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
+     }
+    ],
+    "raw": "Permit only"
+   },
+   "confidence": "verified",
+   "source": "https://www.a2dda.org/parking-rates/",
+   "verifiedOn": "2026-07-30",
+   "capacity": null,
+   "notes": [
+    "Permit-only lot per DDA."
+   ],
+   "availabilityAliases": []
+  }
+ ]
+}

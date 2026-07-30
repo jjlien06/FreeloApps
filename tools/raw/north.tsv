@@ -1,0 +1,63 @@
+# Source: https://ltp.umich.edu/parking/locations-and-enforcement/north-campus/
+# Harvested: 2026-07-30. "Permit and Visitor Parking" table only.
+Lot	Name	Address	EnforcementHours	Tier
+NC5*	Engineering Auxillary Building (EAB)	Fuller Road	6am – 5pm, Mon – Fri	Visitor
+NC8*	Computing Center	2300 Glazier Way	6am – 5pm, Mon – Fri	Blue
+NC9	UM Transportation Institute	3000 Baxter Road	6am – 5pm, Mon – Fri	Yellow
+NC10	School of Music	900 Baits	6am – 5pm, Mon – Fri	Blue
+NC16	Gerstacker Bldg & BIRB	1101 Beal	6am – 5pm, Mon – Fri	Blue
+NC20	GG Brown Building	2300 Hayward Avenue	6am – 5pm, Mon – Fri	Blue
+NC21	Bob & Betty Beyster Building	2260 Hayward Avenue	24 hrs, Mon – Fri	Blue
+NC22	Naval Architecture & Marine Engineering	2600 Draper	6am – 5pm, Mon – Fri	Blue
+NC26*	Naval Architecture & Marine Engineering	2500 Hayward Street	6am – 5pm, Mon – Fri	Visitor
+NC27	Walgreen Drama Center	1300 Murfin Avenue	6am – 8pm, Mon – Sat	Blue
+NC28	Climate And Space Research Building	2500 Hayward Street	6am – 5pm, Mon – Fri	Blue
+NC32	Baits I	1320 Hubbard	6am – 5pm, Mon – Fri	Orange
+NC34	Transportation Research Inst (UMTRI)	3000 Baxter Road	6am – 5pm, Mon – Fri	Yellow
+NC37	Printing Services	1919 Green Road	7am – 7pm, Mon – Fri	Park & Ride
+NC38*	Property Disposition	1200 Dean Road	6am – 5pm, Mon – Fri	Yellow
+NC39	Property Disposition/Housing	3241 Baxter	6am – 5pm, Mon – Fri	Yellow
+NC40	Stearns Building	2005 Baits	6am – 5pm, Mon – Fri	Yellow
+NC42	Bentley Library	1100 Beal Avenue	6am – 5pm, Mon – Fri	Restricted
+NC43*	Art & Architecture Building	2109 Fuller Road	6am – 5pm, Mon – Fri	Blue
+NC44	North Campus Recreation Bldg (NCRB)	2375 Hubbard	6am – 5pm, 7 Days	Visitor
+NC45*	North Campus Recreation Bldg (NCRB)	1501 Murfin	6am – 5pm, Mon – Fri	Blue
+NC46	Hayward & Hubbard	2700 Hubbard	6am – 5pm, Mon – Fri	Orange
+NC47	Ford Library	900 Beal Avenue	24 hrs, 7 days	Restricted
+NC48*	Hayward	2100 Hayward Street	6am – 5pm, Mon – Fri	Blue
+NC51	Glazier Way Commuter	2600 Glazier Way	6am – 5pm, Mon – Fri	Orange
+NC52	UMH Child Care Center	2601 Glazier Way	24 hrs, 7 days	Restricted
+NC53	Hayward & Hubbard	2500 Hayward Street	6am – 5pm, Mon – Fri	Orange
+NC54*	Fire Station	Beal Avenue	6am – 5pm, Mon – Fri	Orange
+NC60	Lurie Engineering	1221 Beal Avenue	6am – 5pm, Mon – Fri	Blue
+NC61	North Campus Facilities Services Bldg	3231 Baxter Rd	6am – 5pm, Mon – Fri	Yellow
+NC62	North Campus Facilities Services Bldg	3231 Baxter Rd	6am – 5pm, Mon – Fri	Yellow
+NC63	North Campus Administrative Complex	2901 Hubbard Road	6am – 5pm, Mon – Fri	Yellow
+NC65	North Campus Administrative Complex	2901 Hubbard Road	6am – 5pm, Mon – Fri	Yellow
+NC66	Dean Road Grounds Service Bldg	1665 Dean	6am – 5pm, Mon – Fri	Yellow
+NC67	Transit Dean Rd	1665 Dean Road	6am – 5pm, Mon – Fri	Yellow
+NC70	Parallel Parking Bonisteel	Bonisteel Avenue	6am – 5pm, Mon – Fri	Blue
+NC78	Fuller Road North Side	North Fuller Road	6am – 5pm, Mon – Fri	Orange
+NC81	North Campus Data Center	Draper Road	6am – 5pm, Mon – Fri	Yellow
+NC82	NCRC Parking – East Campus	1600 Huron Parkway	6am – 5pm, Mon – Fri	Yellow
+NC83	NCRC Parking – East Campus	1600 Huron Parkway	6am – 5pm, Mon – Fri	Yellow
+NC84	NCRC Parking – East Campus	1600 Huron Parkway	6am – 5pm, Mon – Fri	Blue
+NC85	NCRC Parking – East Campus	1600 Huron Parkway	6am – 5pm, Mon – Fri	Blue
+NC86	NCRC Parking – East Campus	1600 Huron Parkway	6am – 5pm, Mon – Fri	Yellow
+NC90	NCRC Parking – West Campus	2800 Plymouth Road	6am – 5pm, Mon – Fri	Yellow
+NC91	NCRC Parking – West Campus	2800 Plymouth Road	6am – 5pm, Mon – Fri	Yellow
+NC92	NCRC Parking – West Campus	2800 Plymouth Road	6am – 5pm, Mon – Fri	Blue
+NC93*	NCRC Parking – West Campus	2800 Plymouth Road	6am – 5pm, Mon – Fri	Blue
+NC95	NCRC Parking – West Campus	2800 Plymouth Road	6am – 5pm Sun-Sat	Blue
+NC96	NCRC Parking – West Campus	2800 Plymouth Road	6am – 5pm, Mon – Fri	Blue
+NC97*	NCRC Day Care Center Parking	2800 Plymouth Road	6:30am – 6:30pm, Mon – Fri	Restricted
+NC98	NCRC Circle Drive – West Campus	2800 Plymouth Road	6am – 5pm, Mon – Fri	Blue
+NC99	NCRC Parking – West Campus	2800 Plymouth Road	6am – 5pm, Mon – Fri	Blue
+NC100*	NCRC Parking Structure	2800 Plymouth Road	6am – 5pm, Mon – Fri	Blue
+NC103	Housing Services Building		6am – 5pm, Mon – Fri	Yellow
+NC105	NCRC Parking-West Campus	2800 Plymouth Rd	6am – 5pm, Mon – Fri	Blue
+NC107*	Transit Dean Road-Bus Spaces	Dean Road	24 hrs, 7 days	Other
+NC108	Green Court		6am – 5pm, Mon – Fri	Visitor
+NC109	Green Court		6am – 5pm, Mon – Fri	Yellow
+NC110*	Green Road Parking	Green Road	6am – 5pm, Mon – Fri	Contractor
+NW1*	Plymouth/Murfin	Plymouth/Murfin	6am – 5pm, Mon – Fri	Orange

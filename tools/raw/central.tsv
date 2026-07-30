@@ -1,0 +1,39 @@
+# Source: https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/
+# Harvested: 2026-07-30. Table "Permit and Visitor Parking" only (Service Centers /
+# loading docks excluded - not general parking).
+# Trailing * on Lot = ADA spaces relocated elsewhere; NOT a parking restriction.
+Lot	Name	Address	EnforcementHours	Tier
+C2	Kraus Natural Science Building	800 North University Street	24 hrs, 7 days	Restricted
+C5	Libraries Service Areas	900 South University Street	6am – 5pm, Mon – Fri	Blue
+C9*	Chemistry Dock	902 North University Street	24 hrs, 7 days	Blue
+E1	North University Court	1300 N. University Street	24 hrs, 7 days	Blue
+E3	Ruthven Museum	1200 Geddes	24 hrs, 7 days	Restricted
+E8	Church Street Parking Structure	525 Church Street	24 hrs, Mon – Sat	Blue
+E15	Weiser Hall	500 Church Street	24 hrs, 7 days	Blue
+E16	1443 Washtenaw Avenue Bldg	1443 Washtenaw Ave	6am – 6pm, Mon – Fri	Blue
+E17*	Wilmot Triangle	1333 Wilmot St	6am – 6pm, Mon – Sat	Blue
+N4	Thayer Street Parking Structure	216 S Thayer Street	6am – 10 pm, Mon – Sat	Blue
+N8	Rackham Building	900 East Huron Street	24 hrs, 7 days	Gold
+N13	Fletcher Street Parking Structure	201 Fletcher Street	6am – 10 pm, Mon – Sat	Blue
+N19*	Palmer Drive-North Side	Palmer Drive-North Side	24 hrs, 7 days	Restricted
+N26	Palmer Drive Structure	200 Washtenaw Avenue	Permit areas 6am – 10 pm, Mon – Sat Visitor area 6am Mon – 10pm Sat, continuously	Blue
+N31*	Harris Hall	617 E Huron St	6am – 5pm, Mon – Fri	Blue
+S5	Oakland Avenue	Monroe Oakland Street Lot	6am – 6pm, Mon – Sat	Blue
+S8	Hill Street Parking Structure	1001 Hill Street	6am – 5pm, Mon – Sat	Blue
+S28*	City of Ann Arbor Forest Structure	Forest Street	24 hrs, 7 days	Blue
+S30*	Martha Cook Residence Dock	Tappan St.	24 hrs, 7 days	Restricted
+W3	Thompson Street Parking Structure	508 Thompson Street	6am – 6pm, Mon – Sat	Blue
+W9	Perry Building East	330 Packard	6am – 5pm, Mon – Sat	Blue
+W10	Perry Building West	330 Packard	6am – 5pm, Mon – Sat	Blue
+W11*	Krause Street	500 West Liberty	6am – 5pm, Mon – Fri	Orange
+W13	Student Activities Building	400 Thompson Street	6am – 6pm, Mon – Sat	Visitor
+W16	Thompson Street-The Triangle	600 Thompson Street	6am – 10 pm, Mon – Sat	Blue
+W19*	Inst for Social Research-Thompson Street	Inst for Social Research-Thompson Street	24 hrs, 7 days	Blue
+W21	Madison Building	109 East Madison	6am – 6pm, Mon – Sat	Blue
+W24	Argus Building	500 W. William	6am – 6pm, Mon – Sat	Orange
+W32	The Coliseum	300 block Hill	6am – 5pm, Mon – Fri	Yellow
+W33	Buhr Building-West	800 Greene St	6am – 5pm, Mon – Fri	Yellow
+W34	Buhr Building-South	800 Greene St	6am – 5pm, Mon – Fri	Blue
+W35	Boyer Building	201 East Hoover	6am – 5pm, Mon – Fri	Blue
+W39	East Side of S 5th Ave	East of S Fifth St	6am – 5pm, Mon – Fri	Yellow
+W40*	East Side of 5th Ave	721 S 5th Ave	6am – 5pm, Mon – Fri	Yellow
