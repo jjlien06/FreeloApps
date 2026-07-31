@@ -11,6 +11,7 @@
 		258AA81B4F1E73067E0738FD /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB291CCAB608211A4D5D5D /* DesignSystem.swift */; };
 		2AA1945D07450A1763919F63 /* ParkingKit in Frameworks */ = {isa = PBXBuildFile; productRef = FFFBB9A19863624B144760C0 /* ParkingKit */; };
 		340509F2416DD64C6ED8EC20 /* EnforcementRibbon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FABB81D69FADD22264D496E /* EnforcementRibbon.swift */; };
+		40F8FED3A1D6F8B624DD3C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0D4BB0DCF3B7A76D11741D /* Assets.xcassets */; };
 		41A51CB07AFB538EB77A4057 /* FacilityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7229E713979927E7DD74726C /* FacilityDetailView.swift */; };
 		A56EA04DF9723A10D8083C04 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16951D48589C1E300972A0A /* AppModel.swift */; };
 		A783E0B646994A1EC7952F57 /* MapTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF58ADCFD6D2D67882A0834B /* MapTabView.swift */; };
@@ -18,7 +19,6 @@
 		B6723F16744C8DDA403E051D /* FreeNowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FDF3D9569188C7D239B99D /* FreeNowView.swift */; };
 		F4061EB580F3C37B8F1C304E /* FacilityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B47272669CB329592EBFB /* FacilityCard.swift */; };
 		F4B1145FAB55BDED8E7893F8 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1362BE396078CDE966936A8 /* LocationProvider.swift */; };
-		B22DF8C3E5F70A1B2C3D4E5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11CE7B2D4E6F8091A2B3C4D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,12 +29,12 @@
 		731B47272669CB329592EBFB /* FacilityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilityCard.swift; sourceTree = "<group>"; };
 		88FDF3D9569188C7D239B99D /* FreeNowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeNowView.swift; sourceTree = "<group>"; };
 		894167411C673EA900E344D5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AD0D4BB0DCF3B7A76D11741D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFCB291CCAB608211A4D5D5D /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
 		C16951D48589C1E300972A0A /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		C4AEB837DDCC937BBF7C7F81 /* MParkingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MParkingApp.swift; sourceTree = "<group>"; };
 		DF58ADCFD6D2D67882A0834B /* MapTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTabView.swift; sourceTree = "<group>"; };
 		F1362BE396078CDE966936A8 /* LocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
-		A11CE7B2D4E6F8091A2B3C4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +73,8 @@
 		8B9663B9A612EE3EA065BBF0 /* MParking */ = {
 			isa = PBXGroup;
 			children = (
-				A11CE7B2D4E6F8091A2B3C4D /* Assets.xcassets */,
 				C16951D48589C1E300972A0A /* AppModel.swift */,
+				AD0D4BB0DCF3B7A76D11741D /* Assets.xcassets */,
 				BFCB291CCAB608211A4D5D5D /* DesignSystem.swift */,
 				F1362BE396078CDE966936A8 /* LocationProvider.swift */,
 				C4AEB837DDCC937BBF7C7F81 /* MParkingApp.swift */,
@@ -108,8 +108,8 @@
 			buildConfigurationList = AB71C0CEFE44E82850AF6E3F /* Build configuration list for PBXNativeTarget "MParking" */;
 			buildPhases = (
 				C190A046601B46845D13C98B /* Sources */,
+				E3CA76E81B4C5862C133064D /* Resources */,
 				3B8225CCA43D720382B09A06 /* Frameworks */,
-				C33EA9D4F6081B2C3D4E5F60 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -157,11 +157,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C33EA9D4F6081B2C3D4E5F60 /* Resources */ = {
+		E3CA76E81B4C5862C133064D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B22DF8C3E5F70A1B2C3D4E5F /* Assets.xcassets in Resources */,
+				40F8FED3A1D6F8B624DD3C48 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

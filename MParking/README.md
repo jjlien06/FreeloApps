@@ -10,6 +10,34 @@ Structure is enforced 24h Mon–Sat, Hill Street only 6am–5pm Mon–Sat — an
 surfaces that as "what's free right now." U-M's own MGoPark app shows occupancy and
 hours, but it won't tell you where to park free at 8pm tonight.
 
+## How to use
+
+It's a personal build, not an App Store app, so it goes on your phone through Xcode:
+
+1. Plug your iPhone into the Mac (or have it on the same Wi-Fi with Xcode paired),
+   open `MParking.xcodeproj`, pick your phone as the run destination, press ⌘R.
+2. First install only: the phone will refuse to launch it until you trust the
+   developer profile — Settings → General → VPN & Device Management → trust.
+3. On a free Apple ID the install expires after 7 days; plugging in and pressing
+   ⌘R again is the whole renewal.
+
+Then day to day:
+
+- **Free now** — every lot that's free at this moment, sorted by distance, each
+  saying *until when*. The time picker answers "what's free at 8pm tonight?"
+  without waiting until 8pm. Tap a lot for its whole week as an hour grid plus
+  live space counts.
+- **Map** — the same verdicts as pins, for picking by geography instead of by list.
+- **Settings** — set the permit you hold (including After Hours) so "usable with
+  your permit" shows alongside "free to anyone"; hide the ~20 lots that never
+  become free; narrow to U-M and/or downtown DDA, and by campus.
+
+Allow location ("while using") when it asks — that's what sorts lots by how far
+you are from them; decline and everything still works, sorted by name. Two
+warnings the app repeats on purpose: the sign at the entrance always wins over the
+app, and football Saturdays, move-in and commencement override normal enforcement
+everywhere.
+
 ## Layout
 
 ```
