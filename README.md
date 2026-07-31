@@ -10,11 +10,20 @@ adding a new app never means touching an existing one.
 | [Heft](Heft/) | iOS | Sorts your photo library by file size — the thing Photos.app won't do — then exports to an external drive or converts RAW, before deleting |
 | [SnipText](SnipText/) | macOS | Menu-bar OCR: hotkey → drag a box around any on-screen text → it lands on your clipboard, all on-device via Apple Vision |
 
-## Working in a single app
+## Building and running
 
-Everything is scoped to the app folder. There is no root build.
+There is no root build — every app builds from inside its own folder, and each
+README covers its app in depth (usage, architecture, data sources, caveats).
 
-```sh
-cd MParking
-cat README.md
-```
+| App | Build & run | Tests |
+|---|---|---|
+| MParking | open `MParking/MParking.xcodeproj`, ⌘R to a simulator or your iPhone | `cd MParking/Packages/ParkingKit && swift test` |
+| Heft | open `Heft/Heft.xcodeproj`, ⌘R — needs a real photo library to be interesting | in-app debug smoke test (see its README) |
+| SnipText | `cd SnipText && make run` — builds, signs, installs to `~/Applications`, launches | `cd SnipText && make test` |
+
+The iOS apps are personal builds: install through Xcode with your own Apple ID.
+On a free account a device holds at most 3 sideloaded apps and each install
+expires after 7 days — rebuild to renew. MParking regenerates its project with
+`xcodegen generate` when source files are added or removed (`project.yml` is the
+source of truth). SnipText signs with your Apple Development certificate so its
+Screen Recording permission survives rebuilds.
