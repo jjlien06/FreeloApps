@@ -5,6 +5,9 @@ DerivedData/
 *.xcuserdatad/
 xcuserdata/
 
+# Assembled .app bundles (SnipText, Cull) — rebuilt by each app's `make bundle`
+dist/
+
 # The Xcode project is generated from project.yml by `xcodegen generate`, but it
 # is committed so the repo opens without extra tooling. Only user-specific state
 # inside it is ignored (above).
