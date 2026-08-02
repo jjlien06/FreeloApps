@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.jeremylien.Cull</string>
+	<key>CFBundleName</key>
+	<string>Cull</string>
+	<key>CFBundleDisplayName</key>
+	<string>Cull</string>
+	<key>CFBundleExecutable</key>
+	<string>Cull</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>15.0</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSDesktopFolderUsageDescription</key>
+	<string>Cull needs access to read the photos you open from your Desktop.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>Cull needs access to read the photos you open from your Documents folder.</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>Cull needs access to read the photos you open from your Downloads folder.</string>
+	<key>NSRemovableVolumesUsageDescription</key>
+	<string>Cull needs access to read photos from memory cards and external drives.</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>Folder of Photos</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSHandlerRank</key>
+			<string>Alternate</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>public.folder</string>
+				<string>public.image</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
