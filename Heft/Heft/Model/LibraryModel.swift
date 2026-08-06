@@ -221,10 +221,10 @@ final class LibraryModel {
 
     /// Kicks off an export in a task we can cancel. A single iCloud-resident 4K video can
     /// take minutes to fetch, and there has to be a way out of that screen.
-    func startExportThenDelete() {
+    func startExport(deletingOriginals: Bool) {
         exportTask?.cancel()
         exportTask = Task { [weak self] in
-            await self?.exportThenDeleteSelected()
+            await self?.exportSelected(deletingOriginals: deletingOriginals)
         }
     }
 
@@ -235,10 +235,13 @@ final class LibraryModel {
         exportRun?.wasCancelled = true
     }
 
-    /// Copies every selected asset out to the export destination, then deletes only
-    /// the ones that were verified byte-for-byte. Anything that failed to export is
-    /// kept, deliberately — a failed backup must never cost you the original.
-    func exportThenDeleteSelected() async {
+    /// Copies every selected asset out to the export destination.
+    ///
+    /// With `deletingOriginals` set, deletes only the ones verified byte-for-byte
+    /// afterwards; anything that failed to export is kept, deliberately — a failed
+    /// backup must never cost you the original. With it clear this is a pure backup
+    /// and the library is left untouched, mirroring "Convert & Keep RAW originals".
+    func exportSelected(deletingOriginals: Bool) async {
         let items = selection.compactMap { offsetByID[$0] }.map { allItems[$0] }
         guard !items.isEmpty else { return }
         guard destination.isUsable else {
@@ -277,6 +280,14 @@ final class LibraryModel {
         }
 
         let verified = outcomes.filter(\.succeeded)
+
+        guard deletingOriginals else {
+            // Pure backup: the copies are on the drive and verified, and the library
+            // keeps everything. Selection is left intact so the same set can be acted
+            // on again without re-picking.
+            exportRun?.phase = .finished
+            return
+        }
 
         guard !verified.isEmpty else {
             exportRun?.phase = .finished
