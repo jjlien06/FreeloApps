@@ -48,7 +48,7 @@ struct SelectionBar: View {
                         isConfirmingExport = true
                     } label: {
                         Label(
-                            "Export to \(model.destination.displayName ?? "drive") & Delete",
+                            "Export to \(model.destination.displayName ?? "drive")",
                             systemImage: "externaldrive.badge.timemachine"
                         )
                         .font(.subheadline.weight(.medium))
@@ -116,18 +116,24 @@ struct SelectionBar: View {
             Text("They move to Recently Deleted and stay recoverable for 30 days.")
         }
         .confirmationDialog(
-            "Export \(countLabel), then delete?",
+            "Export \(countLabel)?",
             isPresented: $isConfirmingExport,
             titleVisibility: .visible
         ) {
-            Button("Export \(ByteFormatting.compact(model.selectedBytes)) & Delete") {
-                model.startExportThenDelete()
+            // Keep-originals first: it is the non-destructive choice, and putting it
+            // ahead of the destructive one makes a mis-tap harmless.
+            Button("Export \(ByteFormatting.compact(model.selectedBytes)) & Keep") {
+                model.startExport(deletingOriginals: false)
+            }
+            Button("Export \(ByteFormatting.compact(model.selectedBytes)) & Delete", role: .destructive) {
+                model.startExport(deletingOriginals: true)
             }
             Button("Cancel", role: .cancel) {}
         } message: {
             Text("Originals are copied to “\(AssetExporter.folderName)” on "
                  + "\(model.destination.displayName ?? "the drive") and verified. "
-                 + "Only verified copies are deleted from your library.")
+                 + "“Keep” leaves your library untouched. "
+                 + "“Delete” removes only the copies that verified.")
         }
         .confirmationDialog(
             "Convert \(rawCountLabel) to \(RawConverter.Format.heic.label)?",
