@@ -1,0 +1,2 @@
+jev-browser-pilot[jev]
+websocket-client

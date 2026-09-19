@@ -18,6 +18,7 @@ one too; this file only covers what is true across the repo.
 | `MParking/` | iOS (SwiftUI) | [MParking/CLAUDE.md](MParking/CLAUDE.md) |
 | `Heft/` | iOS (SwiftUI) | [Heft/CLAUDE.md](Heft/CLAUDE.md) |
 | `Cull/` | macOS (SwiftUI) | [Cull/README.md](Cull/README.md) — architecture section |
+| `JobBot/` | Python CLI | [JobBot/CLAUDE.md](JobBot/CLAUDE.md) |
 
 `.gitignore` is maintained at the repo root because its patterns (`.build/`,
 `DerivedData/`, `__pycache__/`, `xcuserdata/`) apply to every app.

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Fake Job Application</title>
+</head>
+<body>
+  <div id="step1">
+    <h1>Apply for Widget Engineer</h1>
+    <p><label for="fname">First name</label> <input id="fname" name="first_name"></p>
+    <p><label for="lname">Last name</label> <input id="lname" name="last_name"></p>
+    <p><label for="email">Email</label> <input id="email" name="email" type="email"></p>
+    <p><label for="phone">Phone</label> <input id="phone" name="phone"></p>
+    <button id="next1" type="button"
+      onclick="document.getElementById('step1').style.display='none';
+               document.getElementById('step2').style.display='block';">
+      Continue
+    </button>
+  </div>
+
+  <div id="step2" style="display:none">
+    <p><label for="cover">Cover letter</label></p>
+    <p><textarea id="cover" name="cover_letter"></textarea></p>
+    <p><label for="relocate">Are you willing to relocate?</label>
+      <select id="relocate" name="relocate">
+        <option>Yes</option>
+        <option>No</option>
+      </select>
+    </p>
+    <button id="submit" type="button"
+      onclick="document.getElementById('step2').style.display='none';
+               document.body.insertAdjacentHTML('beforeend', '&lt;h1 id=done&gt;Application submitted - thank you!&lt;/h1&gt;');">
+      Submit application
+    </button>
+  </div>
+</body>
+</html>

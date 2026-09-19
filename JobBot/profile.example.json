@@ -1,0 +1,21 @@
+{
+  "first_name": "Jane",
+  "last_name": "Doe",
+  "full_name": "Jane Doe",
+  "email": "jane.doe@example.com",
+  "phone": "555-123-4567",
+  "linkedin_url": "https://linkedin.com/in/janedoe",
+  "github_url": "https://github.com/janedoe",
+  "portfolio_url": "https://janedoe.dev",
+  "city": "Ann Arbor",
+  "state": "MI",
+  "country": "United States",
+  "postal_code": "48104",
+  "work_authorization": "Yes",
+  "cover_letter": "I'm excited to apply for this role because...",
+  "answers": {
+    "Are you willing to relocate?": "No",
+    "Years of experience with Python": "5",
+    "Why do you want to work here?": "I admire the team's work on..."
+  }
+}
