@@ -1,2 +1,2 @@
-jev-browser-pilot[jev]
-websocket-client
+# Not published to PyPI as of writing; install straight from GitHub.
+git+https://github.com/browser-use/jev-ultrafast.git

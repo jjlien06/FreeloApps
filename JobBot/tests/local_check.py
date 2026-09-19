@@ -1,17 +1,20 @@
-"""Offline end-to-end check: no network, no TYPESAFE_API_KEY, no real job site.
+"""Sanity check against a local fake application instead of a real job site.
 
-Serves tests/fixtures/fake_application.html on localhost, points jobbot at it
-with the free `mock` decision provider, and asserts it fills both pages and
-reaches the confirmation text.
+Unlike jev_pilot (the unrelated, similarly-named package this app used to be
+built on), jev-ultrafast has no free/offline decision backend - every run
+calls the real TypeSafe API and a real text-generation API. This script
+still keeps the browser off any real job site by serving
+tests/fixtures/fake_application.html on localhost, but it is NOT free or
+offline: it needs TYPESAFE_API_KEY and TEXT_MODEL_API_KEY set, same as a
+real run.
 
-Needs `pip install -r requirements.txt` and a local Chrome/Chromium first
-(set JEV_PILOT_CHROME if it isn't on PATH as google-chrome/chromium/chromium-browser).
-Run with: python tests/smoke_test.py
+Run with: python tests/local_check.py
 """
 from __future__ import annotations
 
 import functools
 import http.server
+import os
 import sys
 import threading
 from pathlib import Path
@@ -34,6 +37,11 @@ PROFILE = {
 
 
 def main() -> int:
+    if not os.environ.get("TYPESAFE_API_KEY") or not os.environ.get("TEXT_MODEL_API_KEY"):
+        print("Set TYPESAFE_API_KEY and TEXT_MODEL_API_KEY first - this check calls the real APIs, "
+              "just against a local fake form instead of a real job site.", file=sys.stderr)
+        return 2
+
     handler = functools.partial(http.server.SimpleHTTPRequestHandler, directory=str(FIXTURES))
     server = http.server.ThreadingHTTPServer(("127.0.0.1", 0), handler)
     port = server.server_address[1]
@@ -41,15 +49,9 @@ def main() -> int:
     thread.start()
     try:
         url = f"http://127.0.0.1:{port}/fake_application.html"
-        result = apply_to_job(
-            url, PROFILE,
-            submit=True, provider="mock", headless=True, max_pages=3,
-            verifiers=["text-contains:application submitted"],
-        )
+        result = apply_to_job(url, PROFILE, submit=True, max_steps=15)
         print(result)
-        assert result.reached, f"expected to reach the confirmation page, got stopped={result.stopped!r}"
-        assert result.pages_filled == 2, f"expected 2 pages, filled {result.pages_filled}"
-        assert result.fields_filled >= 5, f"expected at least 5 fields filled, got {result.fields_filled}"
+        assert result.submitted, f"expected the fake form to be submitted, got status={result.status!r}"
         print("OK")
         return 0
     finally:

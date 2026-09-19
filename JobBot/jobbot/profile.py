@@ -1,31 +1,27 @@
-"""Applicant profile loading and label -> answer matching heuristics."""
+"""Applicant profile loading and turning it into a goal jev-ultrafast can act on."""
 from __future__ import annotations
 
 import json
-import re
 from pathlib import Path
-from typing import List, Optional, Tuple
 
-# Checked in this order, so a more specific alias never loses to a shorter one
-# it contains (e.g. "last name" is tried before the catch-all "name").
-FIELD_ALIASES: List[Tuple[str, List[str]]] = [
-    ("email", ["email", "e-mail"]),
-    ("phone", ["phone", "mobile", "telephone"]),
-    ("first_name", ["first name", "given name", "legal first name"]),
-    ("last_name", ["last name", "surname", "family name", "legal last name"]),
-    ("linkedin_url", ["linkedin"]),
-    ("github_url", ["github"]),
-    ("portfolio_url", ["portfolio", "personal website"]),
-    ("city", ["city"]),
-    ("state", ["state", "province"]),
-    ("country", ["country"]),
-    ("postal_code", ["zip code", "postal code", "zip"]),
-    ("address", ["street address", "address"]),
-    ("cover_letter", ["cover letter"]),
-    ("desired_salary", ["salary", "compensation expectation"]),
-    ("work_authorization", ["work authoriz", "authorized to work", "sponsorship"]),
-    ("how_heard", ["how did you hear", "referral source"]),
-    ("full_name", ["full name", "your name", "name"]),  # broadest, tried last
+# Order controls the order they appear in the goal text; cosmetic only.
+FIELD_ORDER = [
+    ("first_name", "First name"),
+    ("last_name", "Last name"),
+    ("full_name", "Full name"),
+    ("email", "Email"),
+    ("phone", "Phone"),
+    ("linkedin_url", "LinkedIn"),
+    ("github_url", "GitHub"),
+    ("portfolio_url", "Portfolio / website"),
+    ("address", "Street address"),
+    ("city", "City"),
+    ("state", "State / province"),
+    ("postal_code", "ZIP / postal code"),
+    ("country", "Country"),
+    ("work_authorization", "Work authorization"),
+    ("desired_salary", "Desired salary"),
+    ("cover_letter", "Cover letter"),
 ]
 
 
@@ -35,35 +31,44 @@ def load_profile(path: str) -> dict:
     return data
 
 
-def _norm(text: str) -> str:
-    return re.sub(r"\s+", " ", text or "").strip().lower()
+def build_goal(profile: dict, *, allow_submit: bool) -> str:
+    """A goal string for jev_ultrafast.Agent: explicit values first, instructions second.
 
-
-def match_value(field_label: str, field_name: str, field_id: str, profile: dict) -> Optional[str]:
-    """Best-effort mapping from a form field's label/name/id to a profile answer.
-
-    Order: the user's own free-form Q&A (substring match on the question text,
-    for anything a fixed alias can't anticipate), then the fixed alias table,
-    then a raw lookup by the field's own `name`/`id` attribute for sites that
-    happen to reuse profile-shaped keys.
+    jev-ultrafast's TYPE_TEXT operation is handled by a small helper LLM (see
+    jev_ultrafast/questions.py's TEXT_VALUE prompt) that is told to return null
+    rather than invent a value it wasn't given - so every value the candidate
+    actually wants entered has to be spelled out here, verbatim, rather than
+    left for the model to guess.
     """
-    haystack = _norm(f"{field_label} {field_name} {field_id}")
-    if not haystack:
-        return None
+    lines = [
+        "Fill out this job application using ONLY the candidate information below.",
+        "Copy each value verbatim into the matching field. If a field asks for "
+        "something not listed below, leave it blank rather than inventing an answer.",
+        "",
+        "Candidate information:",
+    ]
+    for key, display in FIELD_ORDER:
+        value = profile.get(key)
+        if value:
+            lines.append(f"- {display}: {value}")
 
-    for question, answer in profile.get("answers", {}).items():
-        if _norm(question) and _norm(question) in haystack:
-            return str(answer)
+    answers = profile.get("answers") or {}
+    if answers:
+        lines.append("")
+        lines.append("Answers to specific questions the form may ask (match by meaning, not exact wording):")
+        for question, answer in answers.items():
+            lines.append(f"- \"{question}\" -> {answer}")
 
-    for key, aliases in FIELD_ALIASES:
-        if key not in profile:
-            continue
-        if any(alias in haystack for alias in aliases):
-            return str(profile[key])
-
-    for raw_key in (field_name, field_id):
-        norm_key = _norm(raw_key).replace(" ", "_")
-        if norm_key and norm_key in profile:
-            return str(profile[norm_key])
-
-    return None
+    lines.append("")
+    if allow_submit:
+        lines.append(
+            "Work through every page of the application, filling every matching field, "
+            "and finish by submitting the completed application."
+        )
+    else:
+        lines.append(
+            "Work through every page of the application, filling every matching field, "
+            "until you reach the final review/submit step. Do not press Submit, "
+            "Apply, or any button that finalizes the application - stop there."
+        )
+    return "\n".join(lines)

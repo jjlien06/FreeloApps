@@ -23,7 +23,7 @@ README covers its app in depth (usage, architecture, data sources, caveats).
 | Heft | open `Heft/Heft.xcodeproj`, ⌘R — needs a real photo library to be interesting | in-app debug smoke test (see its README) |
 | SnipText | `cd SnipText && make run` — builds, signs, installs to `~/Applications`, launches | `cd SnipText && make test` |
 | Cull | `cd Cull && make run` — builds, signs, installs to `~/Applications`, launches | `cd Cull && make test` |
-| JobBot | `cd JobBot && pip install -r requirements.txt && python -m jobbot apply --url ... --profile profile.json` | `cd JobBot && python tests/smoke_test.py` |
+| JobBot | `cd JobBot && pip install -r requirements.txt && python -m jobbot apply --url ... --profile profile.json` | `cd JobBot && python tests/local_check.py` |
 
 The iOS apps are personal builds: install through Xcode with your own Apple ID.
 On a free account a device holds at most 3 sideloaded apps and each install

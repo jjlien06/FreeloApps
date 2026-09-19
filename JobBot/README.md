@@ -3,12 +3,12 @@
 A CLI that fills out — and, if you ask it to, submits — a job application
 form, given your profile as JSON and the application's URL.
 
-It's built on [`jev-browser-pilot`](https://github.com/aidil2105/jev-browser-pilot),
-a lightweight browser-automation library where a small "decision-only" model
-picks which button to click next (Apply / Continue / Submit) while jobbot's
-own code fills in every text field from your profile — the model never sees
-or writes your personal data. See [CLAUDE.md](CLAUDE.md) for how that's wired
-together.
+It's built on [`jev-ultrafast`](https://github.com/browser-use/jev-ultrafast)
+("Jev Ultrafast"), which uses TypeSafe's `Jev` model to pick which page
+element to click/type/select next (no screenshots, one small API call per
+step) instead of a full vision-language-model agent loop. See
+[CLAUDE.md](CLAUDE.md) for exactly what each model call sees and how jobbot
+keeps it from clicking Submit until you say so.
 
 ## Setup
 
@@ -18,73 +18,74 @@ python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-You also need a local Chrome or Chromium (`google-chrome`, `chromium`, or
-`chromium-browser` on PATH, or set `JEV_PILOT_CHROME=/path/to/it`).
+`jev-ultrafast` isn't on PyPI yet, so `requirements.txt` installs it straight
+from GitHub. It manages its own headless Chromium (via its `browser-harness`
+dependency) — you don't need to install a browser yourself.
 
-To use the real decision model (recommended for anything but local testing),
-get a key from [console.typesafe.ai](https://console.typesafe.ai) and:
+You need two API keys:
 
 ```bash
-export TYPESAFE_API_KEY=your_key_here
+export TYPESAFE_API_KEY=your_typesafe_key      # console.typesafe.ai — the decision model
+export TEXT_MODEL_API_KEY=your_deepseek_key    # or point TEXT_MODEL_BASE_URL/TEXT_MODEL at another
+                                                # OpenAI-compatible endpoint, e.g. OpenRouter
 ```
 
 ## Usage
 
 1. Copy `profile.example.json` to `profile.json` and fill in your details.
-   Anything a form field asks that isn't in the fixed fields (name, email,
+   Anything a form asks that isn't one of the fixed fields (name, email,
    phone, links, address, cover letter, ...) goes in `answers` as
-   `{"the question, as worded on the form": "your answer"}` — matched by
-   substring, so it doesn't need to be exact.
+   `{"the question, roughly as worded on the form": "your answer"}`.
 
-2. Dry run first — fills page one, previews the model's next click, clicks
-   nothing:
+2. Dry run first — fills every page it can reach, then stops the instant
+   it's about to click something that looks like a final Submit/Apply:
 
    ```bash
    python -m jobbot apply --url "https://example.com/careers/123/apply" --profile profile.json
    ```
 
-3. Once that looks right, let it actually click through and submit:
+3. Once that looks right, let it actually press submit:
 
    ```bash
    python -m jobbot apply --url "https://example.com/careers/123/apply" --profile profile.json --submit
    ```
 
-   Add `--verifier 'text-contains:some phrase'` for the confirmation text
-   your target site actually shows — the default (`text-contains:thank you`)
-   is a guess. Note: if you pass more than one `--verifier`, jev_pilot
-   requires *all* of them to hold at once (they're ANDed), so most of the
-   time you want exactly one. Use `--show-browser` to watch it work instead
-   of running headless, and `-v` for verbose jev_pilot output.
+   Use `--screenshots --record-dir ./run1` to save a picture after every
+   action if you want to review what it did.
 
 ## Testing it without touching a real site
 
 ```bash
-python tests/smoke_test.py
+python tests/local_check.py
 ```
 
-This serves a two-page fake application from `tests/fixtures/` on
-localhost and drives jobbot through it with `--provider mock` (a free,
-offline keyword-matching stand-in for the real decision model — no API key,
-no network). Run this after touching `jobbot/apply.py` or
-`jobbot/formfill.py`, before pointing jobbot at anything real.
+This points jobbot at a local two-page fake application
+(`tests/fixtures/fake_application.html`) instead of a real job site — but it
+still calls the real TypeSafe and text-generation APIs, since jev-ultrafast
+has no free/offline mode. Set both API keys first. Run this after touching
+`jobbot/apply.py` or `jobbot/profile.py`, before pointing jobbot at anything
+real.
 
 ## Safety notes
 
-- Every run is confined to the target URL's own host; a redirect off-site
-  stops it rather than following along.
-- Without `--submit`, jobbot fills the first page and previews the model's
-  first click — it never actually presses a button.
-- There's no file-upload support yet (resume/cover-letter files, not text) —
-  see CLAUDE.md.
+- Every run stops if the browser leaves the target URL's own host (or a
+  subdomain of it) — see `--allowed-host` to widen that if a real
+  application flow legitimately hands off to another domain (e.g. an SSO
+  login).
+- Without `--submit`, jobbot fills what it can and stops right before any
+  button whose label looks like a final submission — it does not rely on
+  the decision model to police itself; the stop is enforced in jobbot's own
+  code (see CLAUDE.md).
+- There's no file-upload support yet (resume/cover-letter as files, not
+  text).
 - Many ATS platforms' terms of service restrict automated applications.
   Check the specific site's terms before pointing this at it, and use
   `--submit` deliberately, one application at a time.
 
 ## Status
 
-This was built quickly against `jev-browser-pilot`'s source as of September
-2026, before it had a tagged release — pin a version in `requirements.txt`
-once one exists. It has not yet been run end-to-end against a real
-`TYPESAFE_API_KEY` or a real job site in this environment; run the smoke
-test above first, then try a dry run against a real application before
-trusting `--submit`.
+Built against `jev-ultrafast`'s source on GitHub as of September 2026, before
+it had a tagged release — expect its API to move. It has not been run
+end-to-end in this environment (no API keys, and installing a fresh
+third-party package here is sandboxed); run `tests/local_check.py` first,
+then try a dry run against a real application before trusting `--submit`.

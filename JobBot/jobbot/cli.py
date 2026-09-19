@@ -11,7 +11,7 @@ from .profile import load_profile
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        prog="jobbot", description="Job application autofill bot built on jev-browser-pilot."
+        prog="jobbot", description="Job application autofill bot built on browser-use/jev-ultrafast."
     )
     sub = parser.add_subparsers(dest="command", required=True)
 
@@ -20,32 +20,18 @@ def build_parser() -> argparse.ArgumentParser:
     apply_p.add_argument("--profile", required=True, help="Path to a profile JSON file (see profile.example.json).")
     apply_p.add_argument(
         "--submit", action="store_true",
-        help="Actually click through and submit. Without this flag, jobbot fills the first "
-             "page and previews the model's next click, but never presses it (a dry run).",
+        help="Actually press the final Submit/Apply button. Without this flag, jobbot fills every "
+             "page it can reach and stops the moment it's about to click something that looks "
+             "like a final submission (a dry run).",
     )
     apply_p.add_argument(
-        "--provider", default="jev", choices=["jev", "openai", "mock"],
-        help="Decision backend for run_episode. 'jev' (default) needs TYPESAFE_API_KEY; "
-             "'mock' is a free, offline keyword matcher for local testing.",
+        "--allowed-host", default=None,
+        help="Host to confine navigation to (default: the host in --url). A subdomain of it is "
+             "also allowed; anything else stops the run.",
     )
-    apply_p.add_argument("--headless", action="store_true", default=True)
-    apply_p.add_argument(
-        "--show-browser", dest="headless", action="store_false",
-        help="Show the Chrome window instead of running headless.",
-    )
-    apply_p.add_argument("--max-pages", type=int, default=8, help="Stop after this many pages either way.")
-    apply_p.add_argument(
-        "--floor", type=float, default=0.6,
-        help="Confidence floor below which the model escalates instead of clicking (default: 0.6).",
-    )
-    apply_p.add_argument(
-        "--verifier", action="append", dest="verifiers",
-        help="A postcondition meaning 'the application was submitted', e.g. 'url-contains:thank-you' "
-             "or 'text-contains:thanks for applying'. Repeatable, but every one given must hold "
-             "at once (they're ANDed) - for most sites, pass exactly one. Defaults to "
-             "'text-contains:thank you'.",
-    )
-    apply_p.add_argument("-v", "--verbose", action="store_true")
+    apply_p.add_argument("--max-steps", type=int, default=40, help="Stop after this many actions either way.")
+    apply_p.add_argument("--screenshots", action="store_true", help="Capture a screenshot after every action.")
+    apply_p.add_argument("--record-dir", default=None, help="Directory to save per-step screenshots into.")
     return parser
 
 
@@ -57,23 +43,21 @@ def main(argv=None) -> int:
     profile = load_profile(args.profile)
     result = apply_to_job(
         args.url, profile,
-        submit=args.submit, provider=args.provider, headless=args.headless,
-        max_pages=args.max_pages, floor=args.floor, verifiers=args.verifiers,
-        verbose=args.verbose,
+        submit=args.submit, max_steps=args.max_steps, allowed_host=args.allowed_host,
+        screenshots=args.screenshots, record_dir=args.record_dir,
     )
     print(json.dumps({
-        "reached": result.reached,
-        "stopped": result.stopped,
+        "status": result.status,
+        "submitted": result.submitted,
         "final_url": result.final_url,
-        "pages_filled": result.pages_filled,
-        "fields_filled": result.fields_filled,
+        "steps_taken": result.steps_taken,
     }, indent=2))
-    if not args.submit:
+    if result.status == "awaiting_submit":
         print(
-            "\n(dry run: nothing was submitted; re-run with --submit once this looks right)",
+            "\n(stopped right before a submit-looking button; re-run with --submit once this looks right)",
             file=sys.stderr,
         )
-    return 0 if (result.reached or not args.submit) else 1
+    return 0 if (result.submitted or not args.submit) else 1
 
 
 if __name__ == "__main__":
