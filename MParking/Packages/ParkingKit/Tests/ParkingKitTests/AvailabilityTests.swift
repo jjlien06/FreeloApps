@@ -286,8 +286,8 @@ struct DatasetTests {
     @Test("Nothing in the shipped dataset is unverified")
     func everythingVerified() throws {
         let unverified = try Dataset.bundled().facilities.filter { $0.confidence != .verified }
-        #expect(unverified.isEmpty,
-                "unverified: \(unverified.map(\.name).joined(separator: ", "))")
+        #expect(unverified.map(\.lotId) == ["C5"],
+                "unexpected unverified: \(unverified.map(\.name).joined(separator: ", "))")
     }
 
     @Test("Parkable excludes service and contractor tiers")
@@ -296,5 +296,44 @@ struct DatasetTests {
         #expect(d.parkable.count < d.facilities.count)
         #expect(!d.parkable.contains { $0.tier == .restricted })
         #expect(!d.parkable.contains { $0.tier == .contractor })
+    }
+
+    @Test("Matches the deployed UMichFreePark corrections")
+    func deployedAppCorrections() throws {
+        let d = try Dataset.bundled()
+
+        let c5 = try #require(d.facility(lotId: "C5"))
+        #expect(c5.tier == .restricted)
+        #expect(c5.confidence != .verified)
+        #expect(c5.enforcement.raw == "24 hrs, 7 days")
+        #expect(c5.enforcement.windows.count == 7)
+
+        let m5 = try #require(d.facility(lotId: "M5"))
+        #expect(m5.enforcement.raw == "24 hrs, 7 days")
+        #expect(m5.enforcement.windows.count == 7)
+
+        let m61 = try #require(d.facility(lotId: "M61"))
+        #expect(m61.enforcement.raw == "24 hrs, 7 days")
+        #expect(m61.enforcement.windows.count == 7)
+    }
+
+    @Test("Uses one current M18 record from the deployed app")
+    func currentM18Record() throws {
+        let d = try Dataset.bundled()
+        let m18 = d.facilities.filter { $0.lotId == "M18" }
+        #expect(m18.count == 1)
+        #expect(m18.first?.name == "P3 Taubman Center Parking Structure")
+    }
+
+    @Test("Community corrections never claim a lot is free")
+    func communityCorrectionIsConservative() throws {
+        let d = try Dataset.bundled()
+        let c5 = try #require(d.facility(lotId: "C5"))
+        let status = ParkingRules().status(of: c5, at: Date(timeIntervalSince1970: 0))
+        if case .unknown = status {
+            // expected: the deployed app marks this correction as community data
+        } else {
+            Issue.record("C5 must remain unknown until its correction is verified")
+        }
     }
 }

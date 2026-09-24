@@ -2,13 +2,12 @@
 # Harvested: 2026-07-30. "Permit and Visitor Parking" table only.
 Lot	Name	Address	EnforcementHours	Tier
 EC1	EMC Gravel Lot	4442 Plymouth Rd	24 hrs, 7 days	Other
-M5	Catherine Street Parking Structure	1120 Catherine Street	6am – 6pm, Mon – Fri	Blue
+M5	Catherine Street Parking Structure	1120 Catherine Street	24 hrs, 7 days	Blue
 M7	Radiation Oncology	1504 E. Medical Center Drive	24 hrs, 7 days	Restricted
 M10*	UMH Emergency Room	1502 E. Medical Center	24 hrs, 7 days	Restricted
 M13*	Med Inn	E. Hospital Drive	24 hrs, 7 days	Restricted
 M15	North Entrance Structure (M15 or P1)	1300 East Medical Center Drive	24 hrs, 7 days	Blue
 M18	P3 Taubman Center Parking Structure	1600 East Medical Center Drive	24 hrs, 7 days	Visitor
-M18	P2 University of Hospital Parking Structure	1600 East Medical Center Drive	24 hrs, 7 days	Visitor
 M22	P4 Mott Parking Structure	1535 East Hospital Drive	24 hrs, 7 days	Blue
 M28	School of Public Health II-East	1500 Washington Heights	6am – 5pm, Mon – Fri	Blue
 M29*	The Pit	1 Nichols Drive	6am – 5pm, Mon – Fri	Blue

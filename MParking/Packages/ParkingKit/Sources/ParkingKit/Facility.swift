@@ -93,6 +93,7 @@ public enum PermitClass: String, Codable, Sendable, CaseIterable, Identifiable {
 /// be presented as free - a wrong "free" costs the user a ticket.
 public enum Confidence: String, Codable, Sendable {
     case verified   // transcribed from LTP / DDA published hours
+    case community  // credible field report, not yet confirmed by the publisher
     case assumed    // inferred; conservative window applied
     case unknown    // source published no usable hours
 }

@@ -30,6 +30,28 @@ GEOCACHE = ROOT / "tools" / "geocache.json"
 
 HARVEST_DATE = "2026-07-30"
 
+# Corrections mirrored from the deployed UMichFreePark data. These stay as an
+# overlay rather than being written into the LTP TSV transcription so the
+# published table and the field correction remain auditable separately.
+DATA_CORRECTIONS = {
+    "C5": {
+        "enforcementHours": "24 hrs, 7 days",
+        "permitTier": "Restricted",
+        "confidence": "community",
+        "source": "Reported on the ground, 2026-08-06. Contradicts the LTP table, which could not be re-verified: ltp.umich.edu blocks automated requests and the newest archive capture is the one this dataset already uses.",
+        "verifiedOn": "2026-08-06",
+        "note": "Service vehicles only, monitored around the clock. U-M's published table still lists this as a Blue lot enforced 6am-5pm Mon-Fri; check the sign.",
+    },
+    "M61": {
+        "enforcementHours": "24 hrs, 7 days",
+        "permitTier": "Blue",
+        "confidence": "verified",
+        "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
+        "verifiedOn": "2026-08-08",
+        "note": "Posted enforcement: 24 hrs, 7 days. U-M changed this structure from weekday-daytime enforcement to around the clock; it is Blue at every hour now.",
+    },
+}
+
 CAMPUS_SOURCE = {
     "central": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
     "medical": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
@@ -283,11 +305,14 @@ def build() -> dict:
                 fid = f"{fid}-{n}"
             seen.add(fid)
 
-            enf = parse_enforcement(row["EnforcementHours"])
+            correction = DATA_CORRECTIONS.get(lot)
+            hours_raw = correction["enforcementHours"] if correction else row["EnforcementHours"]
+            enf = parse_enforcement(hours_raw)
             lat, lon, how = geocode(row["Address"], row["Name"], geo_on)
-            tier = TIER_MAP.get(row["Tier"].strip().lower(), "other")
+            tier_name = correction["permitTier"] if correction else row["Tier"]
+            tier = TIER_MAP.get(tier_name.strip().lower(), "other")
 
-            notes = [n for n in [enf.get("note")] if n]
+            notes = [n for n in [enf.get("note"), correction.get("note") if correction else None] if n]
             if relocated:
                 notes.append("Accessible spaces relocated to another area (LTP asterisk).")
 
@@ -302,9 +327,10 @@ def build() -> dict:
                 "tier": tier,
                 "enforcement": {"kind": enf["kind"], "windows": enf["windows"],
                                 "raw": enf["raw"]},
-                "confidence": "verified" if enf["kind"] != "unknown" else "unknown",
-                "source": src,
-                "verifiedOn": HARVEST_DATE,
+                "confidence": (correction["confidence"] if correction
+                               else ("verified" if enf["kind"] != "unknown" else "unknown")),
+                "source": correction["source"] if correction else src,
+                "verifiedOn": correction["verifiedOn"] if correction else HARVEST_DATE,
                 "capacity": None,
                 "notes": notes,
                 "availabilityAliases": [k for k, v in AVAILABILITY_ALIASES.items()

@@ -85,6 +85,13 @@ S8 · Hill Street Parking Structure
 | U-M occupancy | [Parking Space Availability](https://ltp.umich.edu/parking/parking-space-availability/) | fetched live, `?tier=both` |
 | Downtown space counts | `a2dda.org/map/AADDACount.json` | fetched live |
 
+The deployed [UMichFreePark app](https://umichfreepark.expo.app/) was also
+cross-checked against the shipped U-M lot snapshot. Its embedded data was
+generated August 6, 2026, with a Glen Street correction dated August 8, 2026.
+That comparison updated M5, M61, and the duplicate M18 record. C5 remains a
+community correction rather than verified LTP data, so MParking marks it
+"Check the sign" and never reports it as free.
+
 Hours ship with the app rather than being scraped at runtime, so it works with no
 signal. They change roughly once an academic year.
 
@@ -106,7 +113,8 @@ under repeated hits. The app treats a 403 as "try later" and keeps the last figu
 - **A wrong "free" costs a ticket**, so anything the sources don't establish is
   shown as "Check the sign" rather than guessed. A test sweeps the whole dataset at
   30-minute intervals across a week asserting no unverified facility ever reports
-  free. Currently every one of the 170 facilities has published hours.
+  free. The current snapshot has 169 facilities; C5 is intentionally community
+  data and is the only non-verified record.
 - **Enforcement windows are split per day at build time**, so `start < end` always
   holds and the engine needs no wrap-around arithmetic. Overnight and multi-day
   spans (M93 is "6 am Mon – 1 am Sat") expand into single-day windows.

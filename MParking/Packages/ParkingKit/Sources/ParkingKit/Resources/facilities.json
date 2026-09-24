@@ -97,43 +97,55 @@
    "lat": null,
    "lon": null,
    "geocode": "not-found",
-   "tier": "blue",
+   "tier": "restricted",
    "enforcement": {
     "kind": "windows",
     "windows": [
      {
       "day": 1,
-      "start": "06:00",
-      "end": "17:00"
+      "start": "00:00",
+      "end": "24:00"
      },
      {
       "day": 2,
-      "start": "06:00",
-      "end": "17:00"
+      "start": "00:00",
+      "end": "24:00"
      },
      {
       "day": 3,
-      "start": "06:00",
-      "end": "17:00"
+      "start": "00:00",
+      "end": "24:00"
      },
      {
       "day": 4,
-      "start": "06:00",
-      "end": "17:00"
+      "start": "00:00",
+      "end": "24:00"
      },
      {
       "day": 5,
-      "start": "06:00",
-      "end": "17:00"
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
      }
     ],
-    "raw": "6am \u2013 5pm, Mon \u2013 Fri"
+    "raw": "24 hrs, 7 days"
    },
-   "confidence": "verified",
-   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/central-campus/",
-   "verifiedOn": "2026-07-30",
+   "confidence": "community",
+   "source": "Reported on the ground, 2026-08-06. Contradicts the LTP table, which could not be re-verified: ltp.umich.edu blocks automated requests and the newest archive capture is the one this dataset already uses.",
+   "verifiedOn": "2026-08-06",
    "capacity": null,
-   "notes": [],
+   "notes": [
+    "Service vehicles only, monitored around the clock. U-M's published table still lists this as a Blue lot enforced 6am-5pm Mon-Fri; check the sign."
+   ],
    "availabilityAliases": []
   },
   {
@@ -1961,31 +1973,41 @@
     "windows": [
      {
       "day": 1,
-      "start": "06:00",
-      "end": "18:00"
+      "start": "00:00",
+      "end": "24:00"
      },
      {
       "day": 2,
-      "start": "06:00",
-      "end": "18:00"
+      "start": "00:00",
+      "end": "24:00"
      },
      {
       "day": 3,
-      "start": "06:00",
-      "end": "18:00"
+      "start": "00:00",
+      "end": "24:00"
      },
      {
       "day": 4,
-      "start": "06:00",
-      "end": "18:00"
+      "start": "00:00",
+      "end": "24:00"
      },
      {
       "day": 5,
-      "start": "06:00",
-      "end": "18:00"
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
      }
     ],
-    "raw": "6am \u2013 6pm, Mon \u2013 Fri"
+    "raw": "24 hrs, 7 days"
    },
    "confidence": "verified",
    "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
@@ -2242,65 +2264,6 @@
    "id": "umich:M18",
    "lotId": "M18",
    "name": "P3 Taubman Center Parking Structure",
-   "system": "umich",
-   "campus": "medical",
-   "address": "1600 East Medical Center Drive",
-   "lat": 42.2810564,
-   "lon": -83.7268038,
-   "geocode": "nominatim",
-   "tier": "visitor",
-   "enforcement": {
-    "kind": "windows",
-    "windows": [
-     {
-      "day": 1,
-      "start": "00:00",
-      "end": "24:00"
-     },
-     {
-      "day": 2,
-      "start": "00:00",
-      "end": "24:00"
-     },
-     {
-      "day": 3,
-      "start": "00:00",
-      "end": "24:00"
-     },
-     {
-      "day": 4,
-      "start": "00:00",
-      "end": "24:00"
-     },
-     {
-      "day": 5,
-      "start": "00:00",
-      "end": "24:00"
-     },
-     {
-      "day": 6,
-      "start": "00:00",
-      "end": "24:00"
-     },
-     {
-      "day": 7,
-      "start": "00:00",
-      "end": "24:00"
-     }
-    ],
-    "raw": "24 hrs, 7 days"
-   },
-   "confidence": "verified",
-   "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
-   "verifiedOn": "2026-07-30",
-   "capacity": null,
-   "notes": [],
-   "availabilityAliases": []
-  },
-  {
-   "id": "umich:M18-2",
-   "lotId": "M18",
-   "name": "P2 University of Hospital Parking Structure",
    "system": "umich",
    "campus": "medical",
    "address": "1600 East Medical Center Drive",
@@ -2934,37 +2897,49 @@
     "windows": [
      {
       "day": 1,
-      "start": "06:00",
-      "end": "18:00"
+      "start": "00:00",
+      "end": "24:00"
      },
      {
       "day": 2,
-      "start": "06:00",
-      "end": "18:00"
+      "start": "00:00",
+      "end": "24:00"
      },
      {
       "day": 3,
-      "start": "06:00",
-      "end": "18:00"
+      "start": "00:00",
+      "end": "24:00"
      },
      {
       "day": 4,
-      "start": "06:00",
-      "end": "18:00"
+      "start": "00:00",
+      "end": "24:00"
      },
      {
       "day": 5,
-      "start": "06:00",
-      "end": "18:00"
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 6,
+      "start": "00:00",
+      "end": "24:00"
+     },
+     {
+      "day": 7,
+      "start": "00:00",
+      "end": "24:00"
      }
     ],
-    "raw": "6am \u2013 6pm, Mon \u2013 Fri"
+    "raw": "24 hrs, 7 days"
    },
    "confidence": "verified",
    "source": "https://ltp.umich.edu/parking/locations-and-enforcement/medical-campus/",
-   "verifiedOn": "2026-07-30",
+   "verifiedOn": "2026-08-08",
    "capacity": null,
-   "notes": [],
+   "notes": [
+    "Posted enforcement: 24 hrs, 7 days. U-M changed this structure from weekday-daytime enforcement to around the clock; it is Blue at every hour now."
+   ],
    "availabilityAliases": []
   },
   {
