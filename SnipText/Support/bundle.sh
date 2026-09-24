@@ -6,7 +6,10 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 
 CONFIG=${1:-release}
-IDENTITY=BA606FC1DB56F821AE3ECB50D1E682259FCE6DD3
+# The first Apple Development certificate in the keychain (override with SIGN_IDENTITY);
+# ad-hoc signing ("-") when there is none, which works but loses permissions on rebuild.
+IDENTITY="${SIGN_IDENTITY:-$(security find-identity -v -p codesigning | awk '/Apple Development/ {print $2; exit}')}"
+IDENTITY="${IDENTITY:--}"
 APP=dist/SnipText.app
 
 swift build -c "$CONFIG" --arch arm64
